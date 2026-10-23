@@ -37,6 +37,6 @@ jobs:
         run: |
           git config user.name "lumevo-bot"
           git config user.email "lumevo-bot@users.noreply.github.com"
-          git add -A audio demandes-voix || true
+          git add -A audio
           git diff --cached --quiet || git commit -m "Voix off recuperee"
           git push
