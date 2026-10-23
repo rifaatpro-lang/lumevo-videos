@@ -1,0 +1,42 @@
+name: Recuperer la voix off
+# Telecharge un fichier audio (voix off ElevenLabs) dont le lien est depose dans demandes-voix/<nom>.txt,
+# l'enregistre dans audio/<nom>.mp3 et le pousse dans le depot.
+on:
+  push:
+    paths:
+      - "demandes-voix/*.txt"
+permissions:
+  contents: write
+concurrency:
+  group: recuperer-voix
+  cancel-in-progress: false
+jobs:
+  telecharger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Telecharger les fichiers demandes
+        run: |
+          set -euo pipefail
+          mkdir -p audio
+          shopt -s nullglob
+          for f in demandes-voix/*.txt; do
+            nom="$(basename "$f" .txt)"
+            url="$(head -n1 "$f" | tr -d '\r\n ')"
+            case "$url" in
+              https://storage.googleapis.com/*|https://api.elevenlabs.io/*|https://api.us.elevenlabs.io/*) ;;
+              *) echo "Lien refuse pour $nom"; continue ;;
+            esac
+            if [ ! -s "audio/$nom.mp3" ]; then
+              curl -fsSL --retry 3 -o "audio/$nom.mp3" "$url"
+              echo "OK $nom : $(stat -c %s "audio/$nom.mp3") octets"
+            fi
+            git rm -q "$f"
+          done
+      - name: Enregistrer dans le depot
+        run: |
+          git config user.name "lumevo-bot"
+          git config user.email "lumevo-bot@users.noreply.github.com"
+          git add -A audio demandes-voix || true
+          git diff --cached --quiet || git commit -m "Voix off recuperee"
+          git push
