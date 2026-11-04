@@ -24,7 +24,7 @@ jobs:
             nom="$(basename "$f" .txt)"
             url="$(head -n1 "$f" | tr -d '\r\n ')"
             case "$url" in
-              https://storage.googleapis.com/*|https://api.elevenlabs.io/*|https://api.us.elevenlabs.io/*) ;;
+              https://storage.googleapis.com/*|https://api.elevenlabs.io/*|https://api.us.elevenlabs.io/*|https://elevenlabsusercontent.com/*) ;;
               *) echo "Lien refuse pour $nom"; continue ;;
             esac
             if [ ! -s "audio/$nom.mp3" ]; then
