@@ -1,0 +1,401 @@
+1
+00:00:00,100 --> 00:00:01,550
+La lumière du hall s'allume.
+
+2
+00:00:01,940 --> 00:00:03,050
+L’ascenseur monte.
+
+3
+00:00:03,360 --> 00:00:04,970
+Le portail du parking s'ouvre.
+
+4
+00:00:05,420 --> 00:00:09,230
+Mais dans votre copropriété, savez-vous
+qui est responsable de quoi ?
+
+5
+00:00:11,440 --> 00:00:15,030
+Nous sommes Lumevo Électricien en
+Val-d'Oise et en Île-de-France.
+
+6
+00:00:15,380 --> 00:00:18,460
+Dans cette vidéo, nous suivons le
+courant jusqu'au tableau des parties
+
+7
+00:00:18,480 --> 00:00:20,930
+communes et nous vous
+disons qui s'occupe de quoi.
+
+8
+00:00:21,420 --> 00:00:22,150
+Quatre étapes.
+
+9
+00:00:22,500 --> 00:00:24,610
+Un, le chemin du courant dans l'immeuble.
+
+10
+00:00:25,000 --> 00:00:27,650
+Deux, la colonne montante et la loi Elan.
+
+11
+00:00:27,960 --> 00:00:31,790
+Trois, le tableau des parties communes, ce
+que nous regardons quand nous l'ouvrons.
+
+12
+00:00:32,100 --> 00:00:34,470
+Quatre, les bons réflexes pour un syndic.
+
+13
+00:00:35,480 --> 00:00:37,490
+Première étape, le chemin du courant.
+
+14
+00:00:37,860 --> 00:00:39,990
+L’électricité arrive du réseau public.
+
+15
+00:00:40,280 --> 00:00:43,770
+Au pied de l'immeuble, il y a un
+coupe-circuit principal collectif.
+
+16
+00:00:44,160 --> 00:00:47,850
+À partir de là, le courant monte dans
+les étages par la colonne montante
+
+17
+00:00:48,040 --> 00:00:49,310
+jusqu'au compteur des logements.
+
+18
+00:00:49,580 --> 00:00:51,930
+Mais l'immeuble alimente
+aussi ses parties communes.
+
+19
+00:00:52,180 --> 00:00:54,950
+L’éclairage des halls et
+des escaliers, l'ascenseur,
+
+20
+00:00:55,080 --> 00:00:56,870
+le portail, la ventilation.
+
+21
+00:00:57,160 --> 00:01:00,410
+Ces équipements relèvent de la
+copropriété et au quotidien,
+
+22
+00:01:00,580 --> 00:01:02,390
+c'est le syndic qui est en première ligne.
+
+23
+00:01:03,260 --> 00:01:05,390
+Deuxième étape, la colonne montante.
+
+24
+00:01:05,780 --> 00:01:09,630
+La loi Elan du 23 novembre
+2018 a clarifié les choses.
+
+25
+00:01:09,900 --> 00:01:13,540
+La propriété des colonnes montantes est
+transférée au gestionnaire du réseau
+
+26
+00:01:13,560 --> 00:01:14,730
+public de distribution.
+
+27
+00:01:14,960 --> 00:01:18,050
+Dans environ 95 % des cas, c'est Enedis.
+
+28
+00:01:18,360 --> 00:01:21,690
+Les autres zones sont gérées par des
+entreprises locales de distribution.
+
+29
+00:01:21,980 --> 00:01:23,470
+Ce transfert est gratuit.
+
+30
+00:01:23,700 --> 00:01:27,370
+Les copropriétés pouvaient le
+refuser jusqu'au 24 novembre 2020.
+
+31
+00:01:27,540 --> 00:01:30,630
+Passé cette date, le transfert
+est devenu automatique.
+
+32
+00:01:30,920 --> 00:01:31,930
+Il y a des exceptions.
+
+33
+00:01:32,060 --> 00:01:36,370
+Par exemple, les réseaux fermés comme certains
+centres commerciaux ou sites industriels.
+
+34
+00:01:36,680 --> 00:01:40,510
+Concrètement, l'entretien et les travaux
+de sécurité sur la colonne montante
+
+35
+00:01:40,600 --> 00:01:42,570
+sont à la charge du gestionnaire du réseau.
+
+36
+00:01:42,780 --> 00:01:46,280
+En revanche, une augmentation de
+puissance ou l'ajout de compteurs peut
+
+37
+00:01:46,300 --> 00:01:47,930
+avoir un coût pour la copropriété.
+
+38
+00:01:48,680 --> 00:01:51,190
+Troisième étape, le tableau
+des parties communes.
+
+39
+00:01:51,580 --> 00:01:55,300
+Là, nous sommes dans l'installation
+de la copropriété et c'est la norme
+
+40
+00:01:55,320 --> 00:01:58,610
+NF C 15-100 qui encadre
+les installations neuves,
+
+41
+00:01:58,740 --> 00:02:00,570
+les rénovations et les extensions.
+
+42
+00:02:00,820 --> 00:02:03,790
+Quand nous ouvrons un tableau de
+parties communes en tant qu'électricien,
+
+43
+00:02:04,020 --> 00:02:05,310
+voici ce que nous regardons.
+
+44
+00:02:05,740 --> 00:02:07,070
+Un, le repérage.
+
+45
+00:02:07,440 --> 00:02:09,780
+Chaque circuit doit être
+identifié clairement :
+
+46
+00:02:09,800 --> 00:02:13,550
+hall, escalier, ascenseur,
+parking, ventilation.
+
+47
+00:02:13,820 --> 00:02:17,250
+Sinon, en cas de panne, on perd
+du temps et on prend des risques.
+
+48
+00:02:17,720 --> 00:02:19,090
+Deux, les protections.
+
+49
+00:02:19,240 --> 00:02:21,150
+Les disjoncteurs protègent les câbles.
+
+50
+00:02:21,380 --> 00:02:24,070
+Les interrupteurs différentiels
+protègent les personnes.
+
+51
+00:02:24,340 --> 00:02:27,530
+Chaque circuit doit avoir la protection
+qui correspond à sa fonction.
+
+52
+00:02:27,880 --> 00:02:29,690
+Trois, l'état du matériel.
+
+53
+00:02:29,960 --> 00:02:34,510
+Traces de chauffe, plastique qui a jauni,
+odeur de brûlé, connexions desserrées.
+
+54
+00:02:34,820 --> 00:02:37,390
+Ce sont des signaux qui demandent
+une intervention rapide.
+
+55
+00:02:37,860 --> 00:02:39,770
+Quatre, la place disponible.
+
+56
+00:02:40,120 --> 00:02:43,350
+La norme prévoit des emplacements
+libres pour les évolutions futures.
+
+57
+00:02:43,520 --> 00:02:46,270
+Un tableau plein ne peut plus
+accueillir de nouveaux circuits.
+
+58
+00:02:46,740 --> 00:02:48,490
+Cinq, la documentation.
+
+59
+00:02:48,700 --> 00:02:52,070
+Un schéma à jour, les certificats,
+les rapports d'intervention.
+
+60
+00:02:52,340 --> 00:02:55,580
+Un tableau sans papiers, c'est un
+tableau dont personne ne sait vraiment
+
+61
+00:02:55,600 --> 00:02:56,390
+ce qui l'alimente.
+
+62
+00:02:58,300 --> 00:02:59,890
+Et une règle pour tout le monde.
+
+63
+00:03:00,100 --> 00:03:03,770
+On n'ouvre jamais un tableau électrique
+sans être électricien qualifié.
+
+64
+00:03:03,960 --> 00:03:06,130
+Dans les parties communes,
+c'est encore plus vrai.
+
+65
+00:03:07,980 --> 00:03:10,770
+Quatrième étape, les bons
+réflexes pour un syndic.
+
+66
+00:03:11,260 --> 00:03:15,080
+Le syndic a une responsabilité envers
+les copropriétaires et envers les
+
+67
+00:03:15,100 --> 00:03:18,030
+tiers pour les accidents qui prennent
+naissance dans les parties communes.
+
+68
+00:03:18,280 --> 00:03:21,230
+Sur le contrôle périodique de l'installation
+électrique des parties communes,
+
+69
+00:03:21,420 --> 00:03:25,310
+les sources sérieuses que nous avons
+consultées ne citent pas d'obligation générale.
+
+70
+00:03:25,500 --> 00:03:29,070
+En revanche, les professionnels recommandent
+de la faire vérifier régulièrement
+
+71
+00:03:29,200 --> 00:03:31,590
+et le syndic peut demander
+un audit électrique.
+
+72
+00:03:31,880 --> 00:03:34,510
+Alors, notre méthode en quatre réflexes.
+
+73
+00:03:34,920 --> 00:03:38,970
+Premier réflexe, faire contrôler
+l'installation par un électricien qualifié
+
+74
+00:03:39,100 --> 00:03:40,510
+et demander un rapport écrit.
+
+75
+00:03:40,900 --> 00:03:44,210
+Deuxième réflexe, classer les
+points à traiter par priorité.
+
+76
+00:03:44,480 --> 00:03:46,570
+Sécurité d'abord, confort ensuite.
+
+77
+00:03:46,880 --> 00:03:51,270
+Troisième réflexe, demander un devis
+poste par poste avec le matériel,
+
+78
+00:03:51,400 --> 00:03:55,230
+le nombre de points, les accès et
+l'évacuation de l'ancien matériel.
+
+79
+00:03:55,400 --> 00:03:57,310
+C'est la seule façon de comparer des offres.
+
+80
+00:03:57,620 --> 00:04:01,970
+Quatrième réflexe, conserver tous les
+documents et les transmettre au syndic suivant.
+
+81
+00:04:03,880 --> 00:04:07,030
+Pour résumer, le courant
+arrive par le réseau public.
+
+82
+00:04:07,300 --> 00:04:10,390
+La colonne montante relève
+désormais du gestionnaire du réseau.
+
+83
+00:04:10,640 --> 00:04:14,270
+Le tableau des parties communes, lui,
+reste l'affaire de la copropriété.
+
+84
+00:04:14,480 --> 00:04:19,250
+Il doit être lisible, protégé, documenté
+et contrôlé par un professionnel.
+
+85
+00:04:19,700 --> 00:04:22,710
+Vous êtes syndic, gestionnaire
+ou membre d'un conseil syndical ?
+
+86
+00:04:22,940 --> 00:04:25,870
+Dites-nous en commentaire quel point
+vous pose question dans votre immeuble
+
+87
+00:04:26,040 --> 00:04:28,270
+et retrouvez-nous sur lumevo.fr.
+
