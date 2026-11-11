@@ -28,6 +28,10 @@
     {%- comment -%} Accueil : titre et description fixés ici (sans promesse 24h/24), prioritaires sur les Préférences de la boutique. {%- endcomment -%}
     <title>Électricien Le Plessis-Bouchard et Val-d'Oise (95) | Lumevo</title>
     <meta name="description" content="Lumevo Électricien, entreprise d'électricité au Plessis-Bouchard : dépannage, tableaux électriques, mise aux normes et copropriétés dans tout le Val-d'Oise (95). Devis gratuit et clair.">
+    {%- elsif request.page_type == 'blog' and current_tags == blank and current_page == 1 -%}
+    {%- comment -%} Blog : titre plus parlant que « Blog électricité – Lumevo ». {%- endcomment -%}
+    <title>Blog électricité : conseils d'électricien (95) | Lumevo</title>
+    {% if page_description %}<meta name="description" content="{{ page_description | escape }}">{% endif %}
     {%- else -%}
     <title>
         {{ page_title }}

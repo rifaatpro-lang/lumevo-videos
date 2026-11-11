@@ -293,3 +293,14 @@ a.lv-city:hover{background:var(--lv-fill)!important;color:#fff!important}
 .lv-phero--img .lv-phero__media{position:relative;order:-1;margin:0 -20px;border-radius:0;aspect-ratio:16/10}
 .lv-phero--img .lv-phero__grid>div:first-child{position:relative;z-index:1;margin-top:-50px}
 }
+/* Titres moins gros sur téléphone et tablette (retour de Rifaat) */
+@media (max-width:599.98px){
+.lv-hero .lv-h1{font-size:clamp(1.55rem,6.9vw,1.85rem)!important;line-height:1.12;letter-spacing:-.02em}
+.lv-phero .lv-h1{font-size:clamp(1.45rem,6.2vw,1.7rem)!important;line-height:1.14}
+.lv-h2{font-size:clamp(1.3rem,5.6vw,1.55rem)!important;line-height:1.18}
+.lv-hero__txt{margin-top:-46px}
+}
+@media (min-width:600px) and (max-width:991.98px){
+.lv-hero .lv-h1{font-size:2.3rem!important}
+.lv-phero .lv-h1{font-size:2rem!important}
+}
