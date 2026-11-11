@@ -8,7 +8,7 @@
     "menu_services": {
      "type": "menu",
      "settings": {
-      "menu": "footer-services",
+      "menu": "lumevo-services",
       "title": "NOS SERVICES",
       "title_size": "h6"
      }

@@ -74,7 +74,7 @@ html.lv-js .lv-reveal.is-in{opacity:1;transform:none}
 .lv-card__t{margin:0;font-size:1.22rem;line-height:1.2;font-weight:700;letter-spacing:-.01em;color:var(--lv-ink)}
 .lv-card__d{margin:0;font-size:.96rem;line-height:1.5;color:var(--lv-muted)}
 .lv-card__more{margin-top:auto;padding-top:8px;font-weight:700;font-size:.95rem;color:var(--lv-blue-d)}
-.lv-card__more::after{content:" →";display:inline-block;transition:transform .2s ease}
+.lv-card__more::after{content:"→";display:inline-block;margin-left:.4em;transition:transform .2s ease}
 .lv-card:hover .lv-card__more::after{transform:translateX(4px)}
 .lv-more{margin:22px 0 0;font-size:1rem}
 .lv-more a,.lv-link{color:var(--lv-blue-d);font-weight:700;text-decoration:underline;text-underline-offset:3px}

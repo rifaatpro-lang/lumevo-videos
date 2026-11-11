@@ -1,0 +1,264 @@
+{
+ "sections": {
+  "titre": {
+   "type": "lumevo-titre",
+   "settings": {
+    "text": "Décrivez votre besoin en quelques lignes. Nous vous répondons avec un devis gratuit et clair, avant tout travaux.",
+    "devis_label": "",
+    "show_content": false
+   }
+  },
+  "form": {
+   "type": "contact-form",
+   "blocks": {
+    "614649d5-0657-49ac-bb8d-381c46c3b023": {
+     "type": "input_field",
+     "settings": {
+      "type": "text",
+      "label": "Nom & Prénom ou Société",
+      "required": true
+     }
+    },
+    "af8809a3-e618-403d-b98b-a3981ba2faed": {
+     "type": "input_field",
+     "settings": {
+      "type": "email",
+      "label": "Adresse e-mail",
+      "required": true
+     }
+    },
+    "0570be8b-e79a-468f-bf54-e0426442aaaf": {
+     "type": "input_field",
+     "settings": {
+      "type": "text",
+      "label": "Téléphone",
+      "required": true
+     }
+    },
+    "input_field_zTUg3k": {
+     "type": "input_field",
+     "settings": {
+      "type": "text",
+      "label": "Ville",
+      "required": true
+     }
+    },
+    "input_field_nqmk4n": {
+     "type": "input_field",
+     "settings": {
+      "type": "text",
+      "label": "Code postal",
+      "required": true
+     }
+    },
+    "text_XPzATd": {
+     "type": "text",
+     "settings": {
+      "title": "Merci de fournir le plus d'informations possible sur votre besoin",
+      "heading_tag": "h3",
+      "title_size": "h6",
+      "description": "",
+      "description_size": "fs-5"
+     }
+    },
+    "4b9b065a-ecc1-48e3-b491-72d54e0131b7": {
+     "type": "textarea",
+     "settings": {
+      "rows": 6,
+      "label": "Décrivez votre besoin",
+      "required": true
+     }
+    },
+    "b0f8f658-ac15-4d5a-be09-7bf54ab9609a": {
+     "type": "submit_btn",
+     "settings": {
+      "btn_text": "Envoyer",
+      "btn_color": "btn-secondary"
+     }
+    }
+   },
+   "block_order": [
+    "614649d5-0657-49ac-bb8d-381c46c3b023",
+    "af8809a3-e618-403d-b98b-a3981ba2faed",
+    "0570be8b-e79a-468f-bf54-e0426442aaaf",
+    "input_field_zTUg3k",
+    "input_field_nqmk4n",
+    "text_XPzATd",
+    "4b9b065a-ecc1-48e3-b491-72d54e0131b7",
+    "b0f8f658-ac15-4d5a-be09-7bf54ab9609a"
+   ],
+   "custom_css": [],
+   "settings": {
+    "bg_color": "bg-light text-body",
+    "bg_gradient": false,
+    "max_width": "640",
+    "brand_image_size": "60",
+    "subtitle": "Nous vous répondrons sous 24 heures",
+    "subtitle_size": "fs-5",
+    "color_caption": "#6c757d",
+    "title_overlay": "",
+    "title_overlay_size": "3",
+    "color_title_overlay": "#000000",
+    "title": "Contactez nos équipes",
+    "heading_tag": "h2",
+    "title_size": "h3",
+    "description": "<p>Si vous souhaitez entrer en contact avec un conseiller Lumevo, demander un <strong>devis</strong>, ou exprimer tout autre besoin lié à nos <strong>services</strong> (<strong>électricité</strong>, <strong>réseaux</strong>, <strong>vidéosurveillance</strong>, <strong>maintenance</strong> et <strong>dépannage</strong>), n’hésitez pas à remplir le formulaire ci-dessous. </p><p><br/>Vous préférez appeler ? 07.50.01.90.25</p>",
+    "description_size": "fs-5",
+    "form_fields_size": "md",
+    "form_success_msg": "<p>Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.</p>",
+    "pt": 8,
+    "pb": 13,
+    "mt": 0,
+    "mb": 0
+   }
+  },
+  "preuves": {
+   "type": "lumevo-preuves",
+   "blocks": {
+    "preuve_1": {
+     "type": "preuve",
+     "settings": {
+      "icon": "devis",
+      "title": "Devis gratuit et détaillé",
+      "text": "Le prix est écrit avant le début des travaux."
+     }
+    },
+    "preuve_2": {
+     "type": "preuve",
+     "settings": {
+      "icon": "assurance",
+      "title": "Travaux assurés",
+      "text": "Assurance décennale et responsabilité civile professionnelle."
+     }
+    },
+    "preuve_3": {
+     "type": "preuve",
+     "settings": {
+      "icon": "norme",
+      "title": "Norme NF C 15-100",
+      "text": "Des installations sûres, contrôlées avant notre départ."
+     }
+    },
+    "preuve_4": {
+     "type": "preuve",
+     "settings": {
+      "icon": "ok",
+      "title": "Chantier laissé propre",
+      "text": "Matériel de marques reconnues, pose soignée."
+     }
+    }
+   },
+   "block_order": [
+    "preuve_1",
+    "preuve_2",
+    "preuve_3",
+    "preuve_4"
+   ],
+   "settings": {}
+  },
+  "zone": {
+   "type": "lumevo-zone",
+   "blocks": {
+    "ville_1": {
+     "type": "ville",
+     "settings": {
+      "name": "Le Plessis-Bouchard"
+     }
+    },
+    "ville_2": {
+     "type": "ville",
+     "settings": {
+      "name": "Franconville"
+     }
+    },
+    "ville_3": {
+     "type": "ville",
+     "settings": {
+      "name": "Taverny"
+     }
+    },
+    "ville_4": {
+     "type": "ville",
+     "settings": {
+      "name": "Ermont"
+     }
+    },
+    "ville_5": {
+     "type": "ville",
+     "settings": {
+      "name": "Saint-Leu-la-Forêt"
+     }
+    },
+    "ville_6": {
+     "type": "ville",
+     "settings": {
+      "name": "Bessancourt"
+     }
+    },
+    "ville_7": {
+     "type": "ville",
+     "settings": {
+      "name": "Eaubonne"
+     }
+    },
+    "ville_8": {
+     "type": "ville",
+     "settings": {
+      "name": "Sannois"
+     }
+    },
+    "ville_9": {
+     "type": "ville",
+     "settings": {
+      "name": "Beauchamp"
+     }
+    },
+    "ville_10": {
+     "type": "ville",
+     "settings": {
+      "name": "Herblay-sur-Seine"
+     }
+    },
+    "ville_11": {
+     "type": "ville",
+     "settings": {
+      "name": "Montigny-lès-Cormeilles"
+     }
+    },
+    "ville_12": {
+     "type": "ville",
+     "settings": {
+      "name": "Argenteuil"
+     }
+    }
+   },
+   "block_order": [
+    "ville_1",
+    "ville_2",
+    "ville_3",
+    "ville_4",
+    "ville_5",
+    "ville_6",
+    "ville_7",
+    "ville_8",
+    "ville_9",
+    "ville_10",
+    "ville_11",
+    "ville_12"
+   ],
+   "settings": {
+    "title": "Électricien dans tout le Val-d'Oise",
+    "text": "Basés au Plessis-Bouchard, nous nous déplaçons dans tout le département, ainsi que dans les Hauts-de-Seine, en Seine-Saint-Denis et à Paris.",
+    "btn_label": "Voir notre page Val-d'Oise (95)",
+    "btn_url": "shopify://pages/electricien-val-doise-95",
+    "map_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.237745899293!2d2.224441476631759!3d49.04410297135793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e65dbff8922561%3A0x1cdbebd7c4cbaa24!2sLumevo%20%C3%89lectricien!5e0!3m2!1sfr!2sfr!4v1765744985017!5m2!1sfr!2sfr"
+   }
+  }
+ },
+ "order": [
+  "titre",
+  "form",
+  "preuves",
+  "zone"
+ ]
+}

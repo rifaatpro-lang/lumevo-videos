@@ -1,0 +1,177 @@
+{
+ "sections": {
+  "page": {
+   "type": "lumevo-page",
+   "blocks": {
+    "point_1": {
+     "type": "point",
+     "settings": {
+      "text": "Devis gratuit"
+     }
+    },
+    "point_2": {
+     "type": "point",
+     "settings": {
+      "text": "Assurance décennale et RC pro"
+     }
+    },
+    "point_3": {
+     "type": "point",
+     "settings": {
+      "text": "Norme NF C 15-100"
+     }
+    }
+   },
+   "block_order": [
+    "point_1",
+    "point_2",
+    "point_3"
+   ],
+   "settings": {
+    "devis_url": "shopify://pages/contact-devis"
+   }
+  },
+  "preuves": {
+   "type": "lumevo-preuves",
+   "blocks": {
+    "preuve_1": {
+     "type": "preuve",
+     "settings": {
+      "icon": "devis",
+      "title": "Devis gratuit et détaillé",
+      "text": "Le prix est écrit avant le début des travaux."
+     }
+    },
+    "preuve_2": {
+     "type": "preuve",
+     "settings": {
+      "icon": "assurance",
+      "title": "Travaux assurés",
+      "text": "Assurance décennale et responsabilité civile professionnelle."
+     }
+    },
+    "preuve_3": {
+     "type": "preuve",
+     "settings": {
+      "icon": "norme",
+      "title": "Norme NF C 15-100",
+      "text": "Des installations sûres, contrôlées avant notre départ."
+     }
+    },
+    "preuve_4": {
+     "type": "preuve",
+     "settings": {
+      "icon": "ok",
+      "title": "Chantier laissé propre",
+      "text": "Matériel de marques reconnues, pose soignée."
+     }
+    }
+   },
+   "block_order": [
+    "preuve_1",
+    "preuve_2",
+    "preuve_3",
+    "preuve_4"
+   ],
+   "settings": {}
+  },
+  "cta": {
+   "type": "lumevo-cta",
+   "settings": {
+    "devis_url": "shopify://pages/contact-devis"
+   }
+  },
+  "services": {
+   "type": "lumevo-services",
+   "blocks": {
+    "service_1": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-cablage-tableau-a-reprendre.jpg",
+      "tag": "Dépannage",
+      "title": "Dépannage électrique",
+      "text": "Disjoncteur qui saute, prise qui chauffe, panne de courant : nous trouvons la cause et nous réparons.",
+      "more": "Voir le dépannage",
+      "url": "shopify://pages/depannage-electrique"
+     }
+    },
+    "service_2": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-tableau-electrique-neuf-repere.jpg",
+      "tag": "Tableau",
+      "title": "Tableau électrique",
+      "text": "Remplacement d'un tableau ancien ou à fusibles par un tableau neuf, repéré circuit par circuit.",
+      "more": "Voir les tableaux",
+      "url": "shopify://pages/tableaux-electriques"
+     }
+    },
+    "service_3": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-ancien-tableau-electrique.jpg",
+      "tag": "Conformité",
+      "title": "Mise aux normes",
+      "text": "Diagnostic de votre installation, puis remise en sécurité selon la norme NF C 15-100.",
+      "more": "Voir la mise aux normes",
+      "url": "shopify://pages/mise-aux-normes-electriques"
+     }
+    },
+    "service_4": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-ancien-tableau-parties-communes.jpg",
+      "tag": "Copropriété",
+      "title": "Syndics et copropriétés",
+      "text": "Éclairage des parties communes, tableaux des services généraux, contrôle d'accès : un seul interlocuteur pour vos immeubles.",
+      "more": "Voir l'offre syndics",
+      "url": "shopify://pages/electricien-syndic-copropriete"
+     }
+    },
+    "service_5": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-coffret-informatique-mural.jpg",
+      "tag": "Réseau",
+      "title": "Réseaux informatiques",
+      "text": "Baie, coffret, câblage et prises RJ45, pour la maison comme pour les bureaux.",
+      "more": "Voir les réseaux",
+      "url": "shopify://pages/reseaux-informatiques"
+     }
+    },
+    "service_6": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-camera-videosurveillance-dome.jpg",
+      "tag": "Sécurité",
+      "title": "Vidéosurveillance",
+      "text": "Caméras, enregistreur et accès à distance, posés proprement et réglés avec vous.",
+      "more": "Voir la vidéosurveillance",
+      "url": "shopify://pages/videosurveillance"
+     }
+    }
+   },
+   "block_order": [
+    "service_1",
+    "service_2",
+    "service_3",
+    "service_4",
+    "service_5",
+    "service_6"
+   ],
+   "settings": {
+    "bg": "lv-sec--paper",
+    "eyebrow": "Nos interventions",
+    "title": "Un électricien pour chaque besoin",
+    "text": "Particuliers, syndics de copropriété, commerces et entreprises : dites-nous ce qui ne va pas, nous nous occupons du reste.",
+    "more_text": "<p>Aussi : <a href=\"/pages/installation-electrique\">installation électrique en neuf et en rénovation</a>. <a href=\"/pages/nos-services\">Voir toutes nos prestations</a>.</p>"
+   }
+  }
+ },
+ "order": [
+  "page",
+  "preuves",
+  "cta",
+  "services"
+ ]
+}

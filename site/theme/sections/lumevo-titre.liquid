@@ -1,0 +1,22 @@
+<section class="lv lv-phero">
+  <div class="lv-wrap">
+    <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+    <h1 class="lv-h1">{{ page.title }}</h1>
+    {% if section.settings.text != blank %}<p class="lv-lead" style="margin-top:.8em">{{ section.settings.text }}</p>{% endif %}
+    <div class="lv-actions">
+      <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_label }} {{ section.settings.tel_text }}</a>
+      {% if section.settings.devis_label != blank %}<a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url }}">{{ section.settings.devis_label }}</a>{% endif %}
+    </div>
+  </div>
+</section>
+{% if section.settings.show_content and page.content != blank %}
+<section class="lv lv-sec"><div class="lv-wrap"><div class="lv-rte rte" style="max-width:820px">{{ page.content }}</div></div></section>
+{% endif %}
+{% schema %}
+{"name":"Lumevo – titre de page","settings":[
+{"type":"text","id":"eyebrow","label":"Sur-titre","default":"Lumevo Électricien · Val-d'Oise (95)"},
+{"type":"textarea","id":"text","label":"Texte"},
+{"type":"checkbox","id":"show_content","label":"Afficher le texte de la page","default":false},
+{"type":"text","id":"tel_label","label":"Bouton appel","default":"Appeler le"},{"type":"text","id":"tel_text","label":"Numéro affiché","default":"07 50 01 90 25"},{"type":"text","id":"tel_url","label":"Lien d'appel","default":"tel:0750019025"},
+{"type":"text","id":"devis_label","label":"Bouton devis","default":"Demander un devis gratuit"},{"type":"url","id":"devis_url","label":"Lien devis"}]}
+{% endschema %}

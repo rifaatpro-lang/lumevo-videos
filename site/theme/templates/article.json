@@ -1,0 +1,43 @@
+{
+ "sections": {
+  "template-article": {
+   "type": "template-article",
+   "settings": {
+    "show_img": true,
+    "img_orientation": "landscape-3",
+    "img_thumbnail": "img-thumbnail",
+    "border_color": "border-primary",
+    "border_width": 1,
+    "shadow_sp": "shadow-1",
+    "heading_tag": "h1",
+    "title_size": "h1",
+    "max_width": "991",
+    "article_meta_author": true,
+    "article_meta_date": true,
+    "show_tags": true,
+    "show_breadcrumbs": true,
+    "show_share_btn": true,
+    "show_prev_next_nav": true,
+    "img_orientation_prev_next_nav": "square",
+    "img_thumbnail_prev_next_nav": "img-thumbnail",
+    "border_color_prev_next_nav": "border-primary",
+    "shadow_sp_prev_next_nav": "shadow-4",
+    "show_scroll_progress_bar": true,
+    "pt": 6,
+    "pb": 10,
+    "mt": 0,
+    "mb": 0
+   }
+  },
+  "cta": {
+   "type": "lumevo-cta",
+   "settings": {
+    "devis_url": "shopify://pages/contact-devis"
+   }
+  }
+ },
+ "order": [
+  "template-article",
+  "cta"
+ ]
+}

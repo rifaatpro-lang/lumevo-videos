@@ -74,7 +74,7 @@
     "bg_gradient": false,
     "bg_option": "",
     "logo_filter": false,
-    "container": "container-fluid",
+    "container": "container",
     "shadow": "shadow-sm",
     "layout_desktop": "navbar-desktop-logo-left",
     "logo_svg": "",
