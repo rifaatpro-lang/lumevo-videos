@@ -38,7 +38,7 @@
         </li>
     {% endfor %}
 {% else %}
-    {%- comment -%} Lumevo : images de carte servies à la taille de l'écran (avant : 1600 px pour toutes). {%- endcomment -%}
+    {%- comment -%} Lumevo : images de carte servies à la taille de l'écran, nettes sur mobile (avant : 600 px fixes). {%- endcomment -%}
     {%- assign lv_ws = '360,540,720,1080' | split: ',' -%}
     {%- assign lv_h720 = img_height | times: 720 | divided_by: img_width -%}
     <li class="article-item p-3 p-lg-4">
