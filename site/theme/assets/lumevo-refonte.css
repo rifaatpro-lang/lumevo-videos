@@ -188,3 +188,22 @@ body{padding-bottom:60px}
 .lv-hero__grid{padding:44px 32px 52px;gap:40px}
 .lv-h1{font-size:3.1rem}
 }
+/* Harmonisation des sections du thème reprises telles quelles (tarifs, FAQ, blog) */
+.lv-zone__grid--solo{grid-template-columns:1fr!important}
+#main .h2_svg{display:none!important}
+#main .comparison-table .title,#main .faq .title,#main section .title.h2{font-weight:700;letter-spacing:-.022em;color:var(--lv-ink)}
+.comparison-table .img-thumbnail,.comparison-table .table-responsive{padding:0!important;border:1px solid var(--lv-line)!important;border-radius:14px!important;overflow:hidden;box-shadow:none!important;background:#fff}
+.comparison-table .table{margin:0}
+.comparison-table .table-dark,.comparison-table thead,.comparison-table tfoot{--bs-table-bg:#0B1B2B;--bs-table-color:#fff;--bs-table-border-color:#0B1B2B}
+.comparison-table thead th,.comparison-table tfoot th{background:#0B1B2B!important;color:#fff!important;padding-top:.9rem!important;padding-bottom:.9rem!important;font-size:.9rem;white-space:normal!important}
+.comparison-table tbody th{text-align:left!important;font-weight:600;color:var(--lv-text);padding:.85rem .9rem}
+.comparison-table tbody td{font-weight:700;color:var(--lv-ink);white-space:nowrap;text-align:right;padding:.85rem .9rem}
+.faq .accordion-button{font-weight:600}
+.faq .accordion-button:not(.collapsed){background:#E4F0F7!important;color:#0B1B2B!important;box-shadow:none}
+/* Articles de blog : même confort de lecture que les pages */
+.article-content.rte{font-size:1.06rem;line-height:1.72;color:var(--lv-text)}
+.article-content.rte h2{margin:1.9em 0 .6em;padding-left:.65em;border-left:4px solid var(--lv-blue);font-size:clamp(1.35rem,3.2vw,1.8rem);line-height:1.2;font-weight:700;color:var(--lv-ink)}
+.article-content.rte h3{margin:1.5em 0 .5em;font-size:1.2rem;font-weight:700;color:var(--lv-ink)}
+.article-content.rte a{color:var(--lv-blue-d);font-weight:600;text-underline-offset:3px}
+.article-content.rte img{max-width:100%;height:auto;border-radius:14px}
+.article-content.rte table{display:block;max-width:100%;overflow-x:auto}

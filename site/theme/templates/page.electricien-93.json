@@ -166,11 +166,111 @@
     "text": "Particuliers, syndics de copropriété, commerces et entreprises : dites-nous ce qui ne va pas, nous nous occupons du reste.",
     "more_text": "<p>Aussi : <a href=\"/pages/installation-electrique\">installation électrique en neuf et en rénovation</a>. <a href=\"/pages/nos-services\">Voir toutes nos prestations</a>.</p>"
    }
+  },
+  "villes": {
+   "type": "lumevo-zone",
+   "blocks": {
+    "ville_1": {
+     "type": "ville",
+     "settings": {
+      "name": "Le Plessis-Bouchard"
+     }
+    },
+    "ville_2": {
+     "type": "ville",
+     "settings": {
+      "name": "Franconville"
+     }
+    },
+    "ville_3": {
+     "type": "ville",
+     "settings": {
+      "name": "Taverny"
+     }
+    },
+    "ville_4": {
+     "type": "ville",
+     "settings": {
+      "name": "Ermont"
+     }
+    },
+    "ville_5": {
+     "type": "ville",
+     "settings": {
+      "name": "Saint-Leu-la-Forêt"
+     }
+    },
+    "ville_6": {
+     "type": "ville",
+     "settings": {
+      "name": "Bessancourt"
+     }
+    },
+    "ville_7": {
+     "type": "ville",
+     "settings": {
+      "name": "Eaubonne"
+     }
+    },
+    "ville_8": {
+     "type": "ville",
+     "settings": {
+      "name": "Sannois"
+     }
+    },
+    "ville_9": {
+     "type": "ville",
+     "settings": {
+      "name": "Beauchamp"
+     }
+    },
+    "ville_10": {
+     "type": "ville",
+     "settings": {
+      "name": "Herblay-sur-Seine"
+     }
+    },
+    "ville_11": {
+     "type": "ville",
+     "settings": {
+      "name": "Montigny-lès-Cormeilles"
+     }
+    },
+    "ville_12": {
+     "type": "ville",
+     "settings": {
+      "name": "Argenteuil"
+     }
+    }
+   },
+   "settings": {
+    "bg": "",
+    "title": "Nous intervenons près de chez vous",
+    "text": "Basés au Plessis-Bouchard, nous nous déplaçons dans tout le Val-d'Oise, ainsi que dans les Hauts-de-Seine, en Seine-Saint-Denis et à Paris.",
+    "btn_label": "Électricien Val-d'Oise (95)",
+    "btn_url": "shopify://pages/electricien-val-doise-95",
+    "map_src": ""
+   },
+   "block_order": [
+    "ville_1",
+    "ville_2",
+    "ville_3",
+    "ville_4",
+    "ville_5",
+    "ville_6",
+    "ville_7",
+    "ville_8",
+    "ville_9",
+    "ville_10",
+    "ville_11",
+    "ville_12"
+   ]
   }
  },
  "order": [
   "page",
   "preuves",
+  "villes",
   "cta",
   "services"
  ]
