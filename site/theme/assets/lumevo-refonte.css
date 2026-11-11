@@ -52,7 +52,7 @@
 html.lv-js .lv-reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
 html.lv-js .lv-reveal.is-in{opacity:1;transform:none}
 }
-@keyframes lv-up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes lv-up{from{transform:translateY(18px)}to{transform:none}}
 @keyframes lv-zoom{from{transform:scale(1.08)}to{transform:scale(1)}}
 /* Preuves */
 .lv-proof{background:#fff;border-bottom:1px solid var(--lv-line)}

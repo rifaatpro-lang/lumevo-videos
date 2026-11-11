@@ -11,7 +11,7 @@
 <script>
 (function(){var e=document.querySelectorAll('.lv-reveal');if(!('IntersectionObserver' in window)){e.forEach(function(n){n.classList.add('is-in')});return}
 var o=new IntersectionObserver(function(a){a.forEach(function(i){if(i.isIntersecting){i.target.classList.add('is-in');o.unobserve(i.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
-e.forEach(function(n){o.observe(n)});})();
+e.forEach(function(n){o.observe(n)});setTimeout(function(){e.forEach(function(n){n.classList.add('is-in')})},2500);})();
 </script>
 {% schema %}
 {"name":"Lumevo – barre d'action","settings":[
