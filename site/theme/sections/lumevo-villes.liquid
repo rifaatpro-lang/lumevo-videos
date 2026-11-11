@@ -1,0 +1,28 @@
+{%- comment -%} Bande « villes » des pages sans gabarit dédié (pages villes) : liens vers la page 95 et vers les pages villes en ligne. La ville de la page affichée n'est pas un lien. {%- endcomment -%}
+{%- assign lv_cities = section.settings.cities | split: ',' -%}
+<section class="lv lv-sec">
+  <div class="lv-wrap lv-zone__grid lv-zone__grid--solo">
+    <div>
+      <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+      <h2 class="lv-h2">{{ section.settings.title }}</h2>
+      <p class="lv-sub">{{ section.settings.text }}</p>
+      <ul class="lv-cities">
+        {%- for c in lv_cities -%}
+          {%- assign lv_name = c | strip -%}
+          {%- assign lv_handle = lv_name | handleize | prepend: 'electricien-' | append: '-95' -%}
+          {%- assign lv_page = pages[lv_handle] -%}
+          <li>{% if lv_page.title != blank and lv_page.handle != page.handle %}<a class="lv-city" href="{{ lv_page.url }}">{{ lv_name }}</a>{% else %}<span class="lv-city">{{ lv_name }}</span>{% endif %}</li>
+        {%- endfor -%}
+      </ul>
+      {% if section.settings.btn_label != blank and page.handle != 'electricien-val-doise-95' %}<div class="lv-actions"><a class="lv-btn lv-btn--dark" href="{{ section.settings.btn_url | default: '/pages/electricien-val-doise-95' }}">{{ section.settings.btn_label }}</a></div>{% endif %}
+    </div>
+  </div>
+</section>
+{% schema %}
+{"name":"Lumevo – villes","settings":[
+{"type":"text","id":"eyebrow","label":"Sur-titre","default":"Zone d'intervention"},
+{"type":"text","id":"title","label":"Titre (H2)","default":"Nous intervenons près de chez vous"},
+{"type":"textarea","id":"text","label":"Texte","default":"Basés au Plessis-Bouchard, nous nous déplaçons dans tout le Val-d'Oise, ainsi que dans les Hauts-de-Seine, en Seine-Saint-Denis et à Paris."},
+{"type":"textarea","id":"cities","label":"Villes (séparées par des virgules)","info":"Le lien se crée tout seul si la page electricien-ville-95 est en ligne.","default":"Le Plessis-Bouchard, Franconville, Taverny, Ermont, Saint-Leu-la-Forêt, Bessancourt, Eaubonne, Sannois, Beauchamp, Herblay-sur-Seine, Montigny-lès-Cormeilles, Argenteuil"},
+{"type":"text","id":"btn_label","label":"Bouton","default":"Électricien Val-d'Oise (95)"},{"type":"url","id":"btn_url","label":"Lien du bouton"}]}
+{% endschema %}
