@@ -221,3 +221,18 @@ body{padding-bottom:60px}
 .lv-eyebrow{font-size:.8125rem!important}
 .blog>.container>.title,.blog .container>.title.text-center{display:none!important}
 #main small,#main .small,#main .fs-7{font-size:.875rem}
+/* En-tête : pas de panier (site vitrine), bouton devis aux couleurs Lumevo, menu sur une ligne en tablette paysage */
+#navbar-desktop .cart-icon,#navbar-mobile .cart-icon,#navbar-desktop a[href$="/cart"],#navbar-mobile a[href$="/cart"]{display:none!important}
+#navbar-desktop .btn{background:var(--lv-blue)!important;border-color:var(--lv-blue)!important;color:var(--lv-ink)!important;letter-spacing:0!important;font-weight:700;border-radius:10px;padding:.6rem 1.05rem;font-size:.95rem;min-height:44px;display:inline-flex;align-items:center}
+#navbar-desktop .btn:hover{background:#4d9bc8!important;border-color:#4d9bc8!important}
+#navbar-desktop .nav-link{font-weight:600}
+@media (min-width:992px) and (max-width:1199.98px){
+#navbar-desktop .navbar-nav{flex-wrap:nowrap!important}
+#navbar-desktop .nav-link{font-size:.9rem;padding-left:.4rem!important;padding-right:.4rem!important;white-space:nowrap}
+#navbar-desktop .navbar-brand img{max-height:52px;width:auto}
+}
+/* Téléphone à l'horizontale : l'en-tête ne reste pas collé, la page garde de la hauteur */
+@media (max-height:480px) and (orientation:landscape){
+.shopify-section-group-header-group[id$="__navbar"]{position:static!important}
+}
+#main .btn:not(.lv-btn){letter-spacing:.01em}
