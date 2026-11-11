@@ -1,0 +1,122 @@
+{
+ "type": "header",
+ "name": "Groupe d'en-tête",
+ "sections": {
+  "lumevo-global": {
+   "type": "lumevo-global",
+   "settings": {}
+  },
+  "announcement-bar": {
+   "type": "announcement-bar",
+   "blocks": {
+    "a1": {
+     "type": "Announcement",
+     "settings": {
+      "description": "<p>87 rue Pasteur, 95130 Le Plessis-Bouchard</p>",
+      "url": "",
+      "countdown_timer": ""
+     }
+    }
+   },
+   "block_order": [
+    "a1"
+   ],
+   "settings": {
+    "homepage": false,
+    "sticky": false,
+    "bg_color": "bg-white text-dark",
+    "bg_gradient": false,
+    "max_width": "700",
+    "font_size": "fs-6",
+    "text_transform": "",
+    "expiration_time": "",
+    "controls": false,
+    "autoplay": false,
+    "pt": 2,
+    "pb": 2
+   }
+  },
+  "navbar": {
+   "type": "navbar",
+   "blocks": {
+    "tools_bfhU7c": {
+     "type": "tools",
+     "settings": {
+      "bg_color": "bg-secondary text-white",
+      "bg_gradient": false,
+      "toolbar_menu": "pr-sent-dans-toute-l-le-de-france-pour-vos-besoins-lectriques",
+      "option-outils": true,
+      "option_text": "Tél. 07 50 01 90 25",
+      "option_link": "tel:0750019025",
+      "language_selector_show": false,
+      "currency_selector_show": false,
+      "lang_currency_btn_color": "btn-light"
+     }
+    },
+    "devis_btn": {
+     "type": "button",
+     "settings": {
+      "btn_text": "Devis gratuit",
+      "btn_url": "shopify://pages/contact-devis"
+     }
+    }
+   },
+   "block_order": [
+    "tools_bfhU7c",
+    "devis_btn"
+   ],
+   "custom_css": [
+    "#navbar-desktop .nav-link {font-size: 1.02rem !important; color: #0B1B2B !important; font-weight: 600;}",
+    "#navbar-mobile .nav-link {color: #0B1B2B !important;}"
+   ],
+   "settings": {
+    "bg_color": "bg-body text-body",
+    "bg_gradient": false,
+    "bg_option": "",
+    "logo_filter": false,
+    "container": "container",
+    "shadow": "shadow-sm",
+    "layout_desktop": "navbar-desktop-logo-left",
+    "logo_svg": "",
+    "logo": "shopify://shop_images/Lumevo-12.png",
+    "logo_height_mobile": 54,
+    "logo_height_desktop": 66,
+    "menu_desktop": "main-menu",
+    "always_show_toggle": false,
+    "menu_desktop_font_family": "",
+    "shadow_sp_img_megamenu": "shadow-none",
+    "border_color_img_megamenu": "border-primary",
+    "menu_desktop_trigger": "menu-desktop-hover",
+    "menu_mobile": "main-menu",
+    "mobile_menu_label": true,
+    "menu_mobile_font_family": "",
+    "show_account": false,
+    "utilities_menu": "pr-sent-dans-toute-l-le-de-france-pour-vos-besoins-lectriques",
+    "offcanvas_menu_show_cart_upsells": false,
+    "language_selector_show": false,
+    "currency_selector_show": false,
+    "lang_currency_btn_color": "btn-outline-secondary",
+    "offcanvas_menu_show_social_icons": false,
+    "pt": 3,
+    "pb": 3
+   }
+  },
+  "breadcrumbs_kJGmRr": {
+   "type": "breadcrumbs",
+   "settings": {
+    "bg_color": "bg-body text-body",
+    "container": "container",
+    "pt": 0,
+    "pb": 0,
+    "mt": 0,
+    "mb": 0
+   }
+  }
+ },
+ "order": [
+  "lumevo-global",
+  "announcement-bar",
+  "navbar",
+  "breadcrumbs_kJGmRr"
+ ]
+}

@@ -1,0 +1,18 @@
+<section class="lv lv-sec lv-sec--paper lv-avis">
+  <div class="lv-wrap">
+    <div class="lv-head lv-reveal">
+      <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+      <h2 class="lv-h2">{{ section.settings.title }}</h2>
+      {% if section.settings.link_url != blank %}<p class="lv-sub"><a class="lv-link" href="{{ section.settings.link_url }}" target="_blank" rel="noopener">{{ section.settings.link_label }}</a></p>{% endif %}
+    </div>
+    <div class="lv-avis__body">
+      {% for block in section.blocks %}{% render block %}{% endfor %}
+    </div>
+  </div>
+</section>
+{% schema %}
+{"name":"Lumevo – avis Google","settings":[{"type":"text","id":"eyebrow","label":"Sur-titre","default":"Avis Google"},{"type":"text","id":"title","label":"Titre (H2)","default":"Ce que disent nos clients"},
+{"type":"text","id":"link_label","label":"Texte du lien","default":"Lire tous nos avis sur Google"},{"type":"url","id":"link_url","label":"Lien vers la fiche Google"}],
+"blocks":[{"type":"@app"}],
+"presets":[{"name":"Lumevo – avis Google"}]}
+{% endschema %}

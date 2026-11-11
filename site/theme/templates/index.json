@@ -1,0 +1,788 @@
+{
+ "sections": {
+  "hero": {
+   "type": "lumevo-hero",
+   "blocks": {
+    "point_1": {
+     "type": "point",
+     "settings": {
+      "text": "Devis gratuit"
+     }
+    },
+    "point_2": {
+     "type": "point",
+     "settings": {
+      "text": "Assurance décennale et RC pro"
+     }
+    },
+    "point_3": {
+     "type": "point",
+     "settings": {
+      "text": "Norme NF C 15-100"
+     }
+    }
+   },
+   "block_order": [
+    "point_1",
+    "point_2",
+    "point_3"
+   ],
+   "settings": {
+    "eyebrow": "Lumevo Électricien · Le Plessis-Bouchard (95)",
+    "title": "Électricien au Plessis-Bouchard et Val-d'Oise",
+    "text": "Panne, tableau à remplacer, mise aux normes, parties communes de copropriété : nous intervenons dans tout le Val-d'Oise, avec un devis gratuit et clair avant travaux.",
+    "image": "shopify://shop_images/lumevo-tableau-electrique-porte-ouverte.jpg",
+    "caption": "Tableau neuf · circuits repérés",
+    "devis_url": "shopify://pages/contact-devis"
+   }
+  },
+  "preuves": {
+   "type": "lumevo-preuves",
+   "blocks": {
+    "preuve_1": {
+     "type": "preuve",
+     "settings": {
+      "icon": "devis",
+      "title": "Devis gratuit et détaillé",
+      "text": "Le prix est écrit avant le début des travaux."
+     }
+    },
+    "preuve_2": {
+     "type": "preuve",
+     "settings": {
+      "icon": "assurance",
+      "title": "Travaux assurés",
+      "text": "Assurance décennale et responsabilité civile professionnelle."
+     }
+    },
+    "preuve_3": {
+     "type": "preuve",
+     "settings": {
+      "icon": "norme",
+      "title": "Norme NF C 15-100",
+      "text": "Des installations sûres, contrôlées avant notre départ."
+     }
+    },
+    "preuve_4": {
+     "type": "preuve",
+     "settings": {
+      "icon": "ok",
+      "title": "Chantier laissé propre",
+      "text": "Matériel de marques reconnues, pose soignée."
+     }
+    }
+   },
+   "block_order": [
+    "preuve_1",
+    "preuve_2",
+    "preuve_3",
+    "preuve_4"
+   ],
+   "settings": {}
+  },
+  "services": {
+   "type": "lumevo-services",
+   "blocks": {
+    "service_1": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-cablage-tableau-a-reprendre.jpg",
+      "tag": "Dépannage",
+      "title": "Dépannage électrique",
+      "text": "Disjoncteur qui saute, prise qui chauffe, panne de courant : nous trouvons la cause et nous réparons.",
+      "more": "Voir le dépannage",
+      "url": "shopify://pages/depannage-electrique"
+     }
+    },
+    "service_2": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-tableau-electrique-neuf-repere.jpg",
+      "tag": "Tableau",
+      "title": "Tableau électrique",
+      "text": "Remplacement d'un tableau ancien ou à fusibles par un tableau neuf, repéré circuit par circuit.",
+      "more": "Voir les tableaux",
+      "url": "shopify://pages/tableaux-electriques"
+     }
+    },
+    "service_3": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-ancien-tableau-electrique.jpg",
+      "tag": "Conformité",
+      "title": "Mise aux normes",
+      "text": "Diagnostic de votre installation, puis remise en sécurité selon la norme NF C 15-100.",
+      "more": "Voir la mise aux normes",
+      "url": "shopify://pages/mise-aux-normes-electriques"
+     }
+    },
+    "service_4": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-ancien-tableau-parties-communes.jpg",
+      "tag": "Copropriété",
+      "title": "Syndics et copropriétés",
+      "text": "Éclairage des parties communes, tableaux des services généraux, contrôle d'accès : un seul interlocuteur pour vos immeubles.",
+      "more": "Voir l'offre syndics",
+      "url": "shopify://pages/electricien-syndic-copropriete"
+     }
+    },
+    "service_5": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-coffret-informatique-mural.jpg",
+      "tag": "Réseau",
+      "title": "Réseaux informatiques",
+      "text": "Baie, coffret, câblage et prises RJ45, pour la maison comme pour les bureaux.",
+      "more": "Voir les réseaux",
+      "url": "shopify://pages/reseaux-informatiques"
+     }
+    },
+    "service_6": {
+     "type": "service",
+     "settings": {
+      "image": "shopify://shop_images/lumevo-camera-videosurveillance-dome.jpg",
+      "tag": "Sécurité",
+      "title": "Vidéosurveillance",
+      "text": "Caméras, enregistreur et accès à distance, posés proprement et réglés avec vous.",
+      "more": "Voir la vidéosurveillance",
+      "url": "shopify://pages/videosurveillance"
+     }
+    }
+   },
+   "block_order": [
+    "service_1",
+    "service_2",
+    "service_3",
+    "service_4",
+    "service_5",
+    "service_6"
+   ],
+   "settings": {
+    "bg": "lv-sec--paper",
+    "eyebrow": "Nos interventions",
+    "title": "Un électricien pour chaque besoin",
+    "text": "Particuliers, syndics de copropriété, commerces et entreprises : dites-nous ce qui ne va pas, nous nous occupons du reste.",
+    "more_text": "<p>Aussi : <a href=\"/pages/installation-electrique\">installation électrique en neuf et en rénovation</a>. <a href=\"/pages/nos-services\">Voir toutes nos prestations</a>.</p>"
+   }
+  },
+  "duo": {
+   "type": "lumevo-duo",
+   "settings": {
+    "eyebrow": "Ce que nous changeons",
+    "title": "D'un tableau fatigué à une installation claire",
+    "text": "Un tableau ancien, sans repères, ne dit rien de ce qu'il protège. Nous posons des tableaux lisibles : chaque circuit est identifié, chaque protection est à sa place. Vous savez enfin ce qui alimente quoi.",
+    "btn_label": "Faire vérifier mon tableau",
+    "btn_url": "shopify://pages/tableaux-electriques",
+    "image_a": "shopify://shop_images/lumevo-ancien-tableau-electrique.jpg",
+    "label_a": "Ce que nous trouvons",
+    "caption_a": "Un tableau ancien, sans repérage.",
+    "image_b": "shopify://shop_images/lumevo-tableau-electrique-neuf-repere.jpg",
+    "label_b": "Ce que nous posons",
+    "caption_b": "Un tableau neuf, repéré circuit par circuit.",
+    "note": "Photos réelles de deux installations différentes."
+   }
+  },
+  "etapes": {
+   "type": "lumevo-etapes",
+   "blocks": {
+    "etape_1": {
+     "type": "etape",
+     "settings": {
+      "title": "Vous nous appelez",
+      "text": "Vous expliquez votre besoin par téléphone ou avec le formulaire. Une photo du tableau nous aide beaucoup."
+     }
+    },
+    "etape_2": {
+     "type": "etape",
+     "settings": {
+      "title": "Devis gratuit et clair",
+      "text": "Vous recevez un prix détaillé, écrit simplement, avant tout travaux."
+     }
+    },
+    "etape_3": {
+     "type": "etape",
+     "settings": {
+      "title": "Intervention soignée",
+      "text": "Nous travaillons proprement, avec du matériel de marques reconnues, dans le respect de la norme NF C 15-100."
+     }
+    },
+    "etape_4": {
+     "type": "etape",
+     "settings": {
+      "title": "Vérification avec vous",
+      "text": "Nous contrôlons l'installation et nous vous expliquons ce qui a été fait avant de partir."
+     }
+    }
+   },
+   "block_order": [
+    "etape_1",
+    "etape_2",
+    "etape_3",
+    "etape_4"
+   ],
+   "settings": {
+    "eyebrow": "Comment ça se passe",
+    "title": "Simple, du premier appel à la mise en service"
+   }
+  },
+  "avis": {
+   "type": "lumevo-avis",
+   "blocks": {
+    "avis_google": {
+     "type": "shopify://apps/entangle-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+     "settings": {}
+    }
+   },
+   "block_order": [
+    "avis_google"
+   ],
+   "settings": {
+    "link_url": "https://www.google.com/maps?cid=2079514964913793572"
+   }
+  },
+  "tarifs": {
+   "type": "comparaison-table",
+   "blocks": {
+    "header_9nXkeV": {
+     "type": "header",
+     "settings": {
+      "cell_1": "Prestation",
+      "cell_2": "#",
+      "cell_3": "",
+      "cell_4": "",
+      "cell_5": "",
+      "cell_6": "",
+      "cell_7": ""
+     }
+    },
+    "item_pcXHGq": {
+     "type": "item",
+     "settings": {
+      "title": "Devis détaillé",
+      "cell_2_display": "text",
+      "cell_2": true,
+      "cell_2_text": "Gratuit",
+      "cell_3_display": "icon",
+      "cell_3": false,
+      "cell_3_text": "",
+      "cell_4_display": "icon",
+      "cell_4": false,
+      "cell_4_text": "Texte 4",
+      "cell_5_display": "icon",
+      "cell_5": false,
+      "cell_5_text": "Texte 5",
+      "cell_6_display": "icon",
+      "cell_6": false,
+      "cell_6_text": "Texte 6",
+      "cell_7_display": "icon",
+      "cell_7": false,
+      "cell_7_text": "Texte 7"
+     }
+    },
+    "item_Mn4Ppf": {
+     "type": "item",
+     "settings": {
+      "title": "Dépannage électrique en semaine (journée)",
+      "cell_2_display": "text",
+      "cell_2": true,
+      "cell_2_text": "110 €",
+      "cell_3_display": "icon",
+      "cell_3": false,
+      "cell_3_text": "Texte 3",
+      "cell_4_display": "icon",
+      "cell_4": false,
+      "cell_4_text": "Texte 4",
+      "cell_5_display": "icon",
+      "cell_5": false,
+      "cell_5_text": "Texte 5",
+      "cell_6_display": "icon",
+      "cell_6": false,
+      "cell_6_text": "Texte 6",
+      "cell_7_display": "icon",
+      "cell_7": false,
+      "cell_7_text": "Texte 7"
+     }
+    },
+    "item_xBHTPg": {
+     "type": "item",
+     "settings": {
+      "title": "Dépannage électrique le samedi",
+      "cell_2_display": "text",
+      "cell_2": true,
+      "cell_2_text": "130 €",
+      "cell_3_display": "icon",
+      "cell_3": false,
+      "cell_3_text": "Texte 3",
+      "cell_4_display": "icon",
+      "cell_4": false,
+      "cell_4_text": "Texte 4",
+      "cell_5_display": "icon",
+      "cell_5": false,
+      "cell_5_text": "Texte 5",
+      "cell_6_display": "icon",
+      "cell_6": false,
+      "cell_6_text": "Texte 6",
+      "cell_7_display": "icon",
+      "cell_7": false,
+      "cell_7_text": "Texte 7"
+     }
+    },
+    "item_3PWUxC": {
+     "type": "item",
+     "settings": {
+      "title": "Dépannage de nuit, dimanche et jours fériés (après 22h)",
+      "cell_2_display": "text",
+      "cell_2": true,
+      "cell_2_text": "180 €",
+      "cell_3_display": "icon",
+      "cell_3": false,
+      "cell_3_text": "Texte 3",
+      "cell_4_display": "icon",
+      "cell_4": false,
+      "cell_4_text": "Texte 4",
+      "cell_5_display": "icon",
+      "cell_5": false,
+      "cell_5_text": "Texte 5",
+      "cell_6_display": "icon",
+      "cell_6": false,
+      "cell_6_text": "Texte 6",
+      "cell_7_display": "icon",
+      "cell_7": false,
+      "cell_7_text": "Texte 7"
+     }
+    },
+    "item_k3FFWm": {
+     "type": "item",
+     "settings": {
+      "title": "Remplacement prise de courant 16A ou va-et-vient encastré",
+      "cell_2_display": "text",
+      "cell_2": true,
+      "cell_2_text": "110 €",
+      "cell_3_display": "icon",
+      "cell_3": false,
+      "cell_3_text": "Texte 3",
+      "cell_4_display": "icon",
+      "cell_4": false,
+      "cell_4_text": "Texte 4",
+      "cell_5_display": "icon",
+      "cell_5": false,
+      "cell_5_text": "Texte 5",
+      "cell_6_display": "icon",
+      "cell_6": false,
+      "cell_6_text": "Texte 6",
+      "cell_7_display": "icon",
+      "cell_7": false,
+      "cell_7_text": "Texte 7"
+     }
+    },
+    "item_EdFFPm": {
+     "type": "item",
+     "settings": {
+      "title": "Remplacement de disjoncteur",
+      "cell_2_display": "text",
+      "cell_2": true,
+      "cell_2_text": "110 €",
+      "cell_3_display": "icon",
+      "cell_3": false,
+      "cell_3_text": "Texte 3",
+      "cell_4_display": "icon",
+      "cell_4": false,
+      "cell_4_text": "Texte 4",
+      "cell_5_display": "icon",
+      "cell_5": false,
+      "cell_5_text": "Texte 5",
+      "cell_6_display": "icon",
+      "cell_6": false,
+      "cell_6_text": "Texte 6",
+      "cell_7_display": "icon",
+      "cell_7": false,
+      "cell_7_text": "Texte 7"
+     }
+    },
+    "item_RpXneJ": {
+     "type": "item",
+     "settings": {
+      "title": "Diagnostic de mise aux normes du tableau électrique",
+      "cell_2_display": "text",
+      "cell_2": true,
+      "cell_2_text": "280 €",
+      "cell_3_display": "icon",
+      "cell_3": false,
+      "cell_3_text": "Texte 3",
+      "cell_4_display": "icon",
+      "cell_4": false,
+      "cell_4_text": "Texte 4",
+      "cell_5_display": "icon",
+      "cell_5": false,
+      "cell_5_text": "Texte 5",
+      "cell_6_display": "icon",
+      "cell_6": false,
+      "cell_6_text": "Texte 6",
+      "cell_7_display": "icon",
+      "cell_7": false,
+      "cell_7_text": "Texte 7"
+     }
+    },
+    "footer_4TW479": {
+     "type": "footer",
+     "settings": {
+      "fcell_1": "Les tarifs sont TTC",
+      "fcell_2": "#",
+      "fcell_3": "",
+      "fcell_4": "",
+      "fcell_5": "",
+      "fcell_6": "",
+      "fcell_7": ""
+     }
+    }
+   },
+   "block_order": [
+    "header_9nXkeV",
+    "item_pcXHGq",
+    "item_Mn4Ppf",
+    "item_xBHTPg",
+    "item_3PWUxC",
+    "item_k3FFWm",
+    "item_EdFFPm",
+    "item_RpXneJ",
+    "footer_4TW479"
+   ],
+   "name": "Tableau Comparatif",
+   "settings": {
+    "bg_color": "bg-light text-body",
+    "bg_gradient": false,
+    "container": "container",
+    "max_width": "1023",
+    "text_align": "text-start",
+    "brand_image_size": "60",
+    "subtitle": "",
+    "subtitle_size": "fs-5",
+    "color_caption": "#004964",
+    "title_overlay": "",
+    "title_overlay_size": "2",
+    "color_title_overlay": "#212529",
+    "title": "Nos tarifs",
+    "heading_tag": "h2",
+    "title_size": "h3",
+    "description": "<p>Jamais de frais supplémentaires.</p>",
+    "description_size": "fs-5",
+    "img_thumbnail": "img-thumbnail",
+    "border_color": "border-dark",
+    "border_width": 1,
+    "shadow_sp": "shadow-1",
+    "table_bordered": true,
+    "table_border_color": "border-dark",
+    "table_thead_color": "table-dark",
+    "table_tfoot_color": "table-dark",
+    "table_second_col_color": "text-primary",
+    "table_second_bg_color": "",
+    "table_striped": true,
+    "pt": 6,
+    "pb": 7,
+    "mt": 0,
+    "mb": 7
+   }
+  },
+  "zone": {
+   "type": "lumevo-zone",
+   "blocks": {
+    "ville_1": {
+     "type": "ville",
+     "settings": {
+      "name": "Le Plessis-Bouchard"
+     }
+    },
+    "ville_2": {
+     "type": "ville",
+     "settings": {
+      "name": "Franconville"
+     }
+    },
+    "ville_3": {
+     "type": "ville",
+     "settings": {
+      "name": "Taverny"
+     }
+    },
+    "ville_4": {
+     "type": "ville",
+     "settings": {
+      "name": "Ermont"
+     }
+    },
+    "ville_5": {
+     "type": "ville",
+     "settings": {
+      "name": "Saint-Leu-la-Forêt"
+     }
+    },
+    "ville_6": {
+     "type": "ville",
+     "settings": {
+      "name": "Bessancourt"
+     }
+    },
+    "ville_7": {
+     "type": "ville",
+     "settings": {
+      "name": "Eaubonne"
+     }
+    },
+    "ville_8": {
+     "type": "ville",
+     "settings": {
+      "name": "Sannois"
+     }
+    },
+    "ville_9": {
+     "type": "ville",
+     "settings": {
+      "name": "Beauchamp"
+     }
+    },
+    "ville_10": {
+     "type": "ville",
+     "settings": {
+      "name": "Herblay-sur-Seine"
+     }
+    },
+    "ville_11": {
+     "type": "ville",
+     "settings": {
+      "name": "Montigny-lès-Cormeilles"
+     }
+    },
+    "ville_12": {
+     "type": "ville",
+     "settings": {
+      "name": "Argenteuil"
+     }
+    }
+   },
+   "block_order": [
+    "ville_1",
+    "ville_2",
+    "ville_3",
+    "ville_4",
+    "ville_5",
+    "ville_6",
+    "ville_7",
+    "ville_8",
+    "ville_9",
+    "ville_10",
+    "ville_11",
+    "ville_12"
+   ],
+   "settings": {
+    "title": "Électricien dans tout le Val-d'Oise",
+    "text": "Basés au Plessis-Bouchard, nous nous déplaçons dans tout le département, ainsi que dans les Hauts-de-Seine, en Seine-Saint-Denis et à Paris.",
+    "btn_label": "Voir notre page Val-d'Oise (95)",
+    "btn_url": "shopify://pages/electricien-val-doise-95",
+    "map_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.237745899293!2d2.224441476631759!3d49.04410297135793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e65dbff8922561%3A0x1cdbebd7c4cbaa24!2sLumevo%20%C3%89lectricien!5e0!3m2!1sfr!2sfr!4v1765744985017!5m2!1sfr!2sfr"
+   }
+  },
+  "faq": {
+   "type": "faq",
+   "blocks": {
+    "1651755243f618171d-1": {
+     "type": "text",
+     "settings": {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\" class=\"bi bi-question-square\" viewbox=\"0 0 16 16\">\n  <path d=\"M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z\"></path>\n  <path d=\"M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z\"></path>\n</svg>",
+      "title": "Intervenez-vous pour un dépannage électrique ?",
+      "heading_tag": "h3",
+      "description": "<p>Oui. Nous assurons le dépannage électrique dans le Val-d'Oise. Appelez-nous : nous vous indiquons tout de suite le premier créneau possible.</p>",
+      "img_orientation": "landscape",
+      "img_crop": "center",
+      "img_thumbnail": "img-thumbnail",
+      "border_color": "",
+      "border_width": 1,
+      "shadow_sp": "shadow-1",
+      "img_align_desktop": "flex-lg-row"
+     }
+    },
+    "1651755243f618171d-2": {
+     "type": "text",
+     "settings": {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\" class=\"bi bi-question-square\" viewbox=\"0 0 16 16\">\n  <path d=\"M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z\"></path>\n  <path d=\"M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z\"></path>\n</svg>",
+      "title": "Vos devis sont-ils vraiment gratuits et sans engagement ?",
+      "heading_tag": "h3",
+      "description": "<p>Oui, totalement ! Nos devis sont entièrement gratuits, détaillés et sans aucune obligation de votre part.</p>",
+      "img_orientation": "landscape",
+      "img_crop": "center",
+      "img_thumbnail": "img-thumbnail",
+      "border_color": "border-primary",
+      "border_width": 1,
+      "shadow_sp": "shadow-2",
+      "img_align_desktop": "flex-lg-row"
+     }
+    },
+    "1651755243f618171d-3": {
+     "type": "text",
+     "settings": {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\" class=\"bi bi-question-square\" viewbox=\"0 0 16 16\">\n  <path d=\"M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z\"></path>\n  <path d=\"M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z\"></path>\n</svg>",
+      "title": "Pouvez-vous m’aider à réduire ma consommation énergétique ?",
+      "heading_tag": "h3",
+      "description": "<p>Oui, grâce à nos solutions innovantes comme l’installation d’éclairages LED ou de systèmes domotiques, vous pouvez optimiser votre consommation tout en économisant.</p>",
+      "img_orientation": "landscape",
+      "img_crop": "center",
+      "img_thumbnail": "img-thumbnail",
+      "border_color": "",
+      "border_width": 1,
+      "shadow_sp": "shadow-1",
+      "img_align_desktop": "flex-lg-row"
+     }
+    },
+    "1651755243f618171d-0": {
+     "type": "text",
+     "settings": {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\" class=\"bi bi-question-square\" viewbox=\"0 0 16 16\">\n  <path d=\"M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z\"></path>\n  <path d=\"M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z\"></path>\n</svg>",
+      "title": "Combien de temps dure une intervention classique ?",
+      "heading_tag": "h3",
+      "description": "<p>Cela dépend du projet, mais nous mettons un point d'honneur à travailler rapidement tout en garantissant un résultat impeccable.</p>",
+      "img_orientation": "square",
+      "img_crop": "center",
+      "img_thumbnail": "",
+      "border_color": "",
+      "border_width": 1,
+      "shadow_sp": "shadow-none",
+      "img_align_desktop": "flex-lg-row-reverse"
+     }
+    },
+    "1651755243f618171d-4": {
+     "type": "text",
+     "settings": {
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\" class=\"bi bi-question-square\" viewbox=\"0 0 16 16\">\n  <path d=\"M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z\"></path>\n  <path d=\"M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z\"></path>\n</svg>",
+      "title": "Que faire si je ne sais pas exactement ce dont j’ai besoin ?",
+      "heading_tag": "h3",
+      "description": "<p>Aucun problème ! Nous vous conseillons et vous guidons pour définir ensemble la solution la plus adaptée à vos besoins.</p>",
+      "img_orientation": "landscape",
+      "img_crop": "center",
+      "img_thumbnail": "img-thumbnail",
+      "border_color": "",
+      "border_width": 1,
+      "shadow_sp": "shadow-1",
+      "img_align_desktop": "flex-lg-row"
+     }
+    }
+   },
+   "block_order": [
+    "1651755243f618171d-1",
+    "1651755243f618171d-2",
+    "1651755243f618171d-3",
+    "1651755243f618171d-0",
+    "1651755243f618171d-4"
+   ],
+   "settings": {
+    "background_img_opacity": 0.5,
+    "background_img_blur": 0,
+    "bg_color": "bg-white text-dark",
+    "bg_gradient": true,
+    "max_width": "991",
+    "accordion_style": "accordion-default",
+    "show_expanded": true,
+    "accordion_custom_bg": "#ffffff",
+    "accordion_custom_title_color": "#212529",
+    "accordion_custom_bg_plus": "#ffffff",
+    "accordion_custom_plus_color": "#ffffff",
+    "accordion_custom_bg_actif": "#ffffff",
+    "accordion_custom_title_color_actif": "#ffffff",
+    "accordion_custom_bg_plus_actif": "#ffffff",
+    "accordion_custom_plus_color_actif": "#ffffff",
+    "img_thumbnail_faq": "",
+    "border_color_faq": "border-primary",
+    "border_width_faq": 0,
+    "shadow_sp_faq": "shadow-2",
+    "text_align": "text-center",
+    "brand_image_size": "60",
+    "subtitle": "",
+    "subtitle_size": "fs-5",
+    "color_caption": "#6c757d",
+    "title_overlay": "",
+    "title_overlay_size": "3",
+    "color_title_overlay": "#000000",
+    "title": "Questions fréquentes",
+    "heading_tag": "h2",
+    "title_size": "h3",
+    "description": "<p>Trouvez la réponse aux questions que l’on nous pose fréquemment !</p>",
+    "description_size": "fs-5",
+    "img_orientation": "potrait-x2",
+    "img_crop": "center",
+    "img_thumbnail": "img-thumbnail",
+    "border_color": "border-primary",
+    "border_width": 1,
+    "shadow_sp": "shadow-4",
+    "img_align_desktop": "flex-lg-row",
+    "pt": 10,
+    "pb": 9,
+    "mt": 0,
+    "mb": 0
+   }
+  },
+  "blog": {
+   "type": "latest-articles",
+   "name": "Articles de Blog",
+   "settings": {
+    "blog": "electricite",
+    "limit": 10,
+    "bg_color": "bg-body text-body",
+    "bg_gradient": false,
+    "container": "container",
+    "max_width": "991",
+    "text_align": "text-start",
+    "brand_image_size": "60",
+    "subtitle": "",
+    "subtitle_size": "fs-5",
+    "color_caption": "#6c757d",
+    "title_overlay": "",
+    "title_overlay_size": "3",
+    "color_title_overlay": "#000000",
+    "title": "Nos articles de blog",
+    "heading_tag": "h2",
+    "title_size": "h3",
+    "description": "",
+    "description_size": "fs-5",
+    "article_img_orientation": "landscape-3",
+    "article_title_size": "h5",
+    "article_meta_author": false,
+    "article_meta_date": true,
+    "article_excerpt": true,
+    "border_color": "border-secondary",
+    "border_width": 1,
+    "shadow_sp": "shadow-1",
+    "animation": "animate__zoomIn",
+    "animation_speed": "animate__fast",
+    "breakpoint_xs_scroll": true,
+    "breakpoint_xs": 1,
+    "breakpoint_sm": 1,
+    "breakpoint_md": 2,
+    "breakpoint_lg": 2,
+    "breakpoint_xl": 4,
+    "breakpoint_xxl": 4,
+    "pt": 0,
+    "pb": 0,
+    "mt": 0,
+    "mb": 0
+   }
+  },
+  "cta": {
+   "type": "lumevo-cta",
+   "settings": {
+    "devis_url": "shopify://pages/contact-devis"
+   }
+  }
+ },
+ "order": [
+  "hero",
+  "preuves",
+  "services",
+  "duo",
+  "etapes",
+  "avis",
+  "tarifs",
+  "zone",
+  "faq",
+  "blog",
+  "cta"
+ ]
+}

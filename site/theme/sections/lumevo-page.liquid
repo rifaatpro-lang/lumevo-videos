@@ -1,0 +1,35 @@
+<section class="lv lv-phero">
+  <div class="lv-wrap">
+    <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+    <h1 class="lv-h1">{{ page.title }}</h1>
+    <div class="lv-actions">
+      <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_label }} {{ section.settings.tel_text }}</a>
+      <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url }}">{{ section.settings.devis_label }}</a>
+    </div>
+  </div>
+</section>
+<section class="lv lv-sec lv-page">
+  <div class="lv-wrap lv-page__grid">
+    <div class="lv-rte rte">{{ page.content }}</div>
+    <aside class="lv-aside">
+      <div class="lv-aside__card">
+        <p class="lv-aside__t">{{ section.settings.aside_title }}</p>
+        <p class="lv-aside__d">{{ section.settings.aside_text }}</p>
+        <div class="lv-actions">
+          <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_text }}</a>
+          <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url }}">{{ section.settings.devis_label }}</a>
+        </div>
+        {% if section.blocks.size > 0 %}<ul class="lv-check">{% for block in section.blocks %}<li {{ block.shopify_attributes }}>{{ block.settings.text }}</li>{% endfor %}</ul>{% endif %}
+      </div>
+    </aside>
+  </div>
+</section>
+{% schema %}
+{"name":"Lumevo – page","settings":[
+{"type":"text","id":"eyebrow","label":"Sur-titre","default":"Lumevo Électricien · Val-d'Oise (95)"},
+{"type":"text","id":"tel_label","label":"Bouton appel","default":"Appeler le"},{"type":"text","id":"tel_text","label":"Numéro affiché","default":"07 50 01 90 25"},{"type":"text","id":"tel_url","label":"Lien d'appel","default":"tel:0750019025"},
+{"type":"text","id":"devis_label","label":"Bouton devis","default":"Demander un devis gratuit"},{"type":"url","id":"devis_url","label":"Lien devis"},
+{"type":"text","id":"aside_title","label":"Encadré : titre","default":"Un devis gratuit et clair"},
+{"type":"textarea","id":"aside_text","label":"Encadré : texte","default":"Expliquez-nous votre besoin. Nous vous répondons avec un prix détaillé, avant tout travaux."}],
+"blocks":[{"type":"point","name":"Point fort","settings":[{"type":"text","id":"text","label":"Texte"}]}]}
+{% endschema %}

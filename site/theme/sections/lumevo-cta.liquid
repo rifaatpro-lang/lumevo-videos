@@ -1,0 +1,20 @@
+<section class="lv lv-sec lv-cta">
+  <div class="lv-wrap lv-reveal">
+    <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+    <h2 class="lv-h2">{{ section.settings.title }}</h2>
+    <p class="lv-sub">{{ section.settings.text }}</p>
+    <div class="lv-actions">
+      <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_label }} {{ section.settings.tel_text }}</a>
+      <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url }}">{{ section.settings.devis_label }}</a>
+    </div>
+  </div>
+</section>
+{% schema %}
+{"name":"Lumevo – appel final","settings":[
+{"type":"text","id":"eyebrow","label":"Sur-titre","default":"Devis gratuit"},
+{"type":"text","id":"title","label":"Titre (H2)","default":"Un doute sur votre installation ? Parlons-en."},
+{"type":"textarea","id":"text","label":"Texte","default":"Décrivez-nous votre besoin : nous vous répondons avec un devis clair, avant tout travaux."},
+{"type":"text","id":"tel_label","label":"Bouton appel","default":"Appeler le"},{"type":"text","id":"tel_text","label":"Numéro affiché","default":"07 50 01 90 25"},{"type":"text","id":"tel_url","label":"Lien d'appel","default":"tel:0750019025"},
+{"type":"text","id":"devis_label","label":"Bouton devis","default":"Demander un devis gratuit"},{"type":"url","id":"devis_url","label":"Lien devis"}],
+"presets":[{"name":"Lumevo – appel final"}]}
+{% endschema %}

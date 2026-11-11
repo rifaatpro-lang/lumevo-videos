@@ -1,0 +1,27 @@
+<section class="lv lv-proof">
+  <div class="lv-wrap">
+    <ul class="lv-proof__list">
+      {% for block in section.blocks %}
+        <li class="lv-proof__item lv-reveal" {{ block.shopify_attributes }}>
+          <span class="lv-proof__ico" aria-hidden="true">
+            {% case block.settings.icon %}
+              {% when 'devis' %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>
+              {% when 'assurance' %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+              {% when 'norme' %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>
+              {% else %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="M22 4L12 14l-3-3"/></svg>
+            {% endcase %}
+          </span>
+          <p class="lv-proof__t">{{ block.settings.title }}</p>
+          <p class="lv-proof__d">{{ block.settings.text }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% schema %}
+{"name":"Lumevo – preuves","max_blocks":4,"settings":[],
+"blocks":[{"type":"preuve","name":"Preuve","settings":[
+{"type":"select","id":"icon","label":"Icône","default":"ok","options":[{"value":"devis","label":"Devis"},{"value":"assurance","label":"Assurance"},{"value":"norme","label":"Norme"},{"value":"ok","label":"Validé"}]},
+{"type":"text","id":"title","label":"Titre"},{"type":"text","id":"text","label":"Texte"}]}],
+"presets":[{"name":"Lumevo – preuves"}]}
+{% endschema %}

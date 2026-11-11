@@ -1,0 +1,45 @@
+<section class="lv lv-sec {{ section.settings.bg }}">
+  <div class="lv-wrap">
+    <div class="lv-head lv-reveal">
+      <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+      <h2 class="lv-h2">{{ section.settings.title }}</h2>
+      {% if section.settings.text != blank %}<p class="lv-sub">{{ section.settings.text }}</p>{% endif %}
+    </div>
+    <ul class="lv-cards">
+      {% for block in section.blocks %}
+        <li class="lv-reveal" {{ block.shopify_attributes }}>
+          <a class="lv-card" href="{{ block.settings.url }}">
+            <div class="lv-card__img">
+              {% if block.settings.image != blank %}
+                {{ block.settings.image | image_url: width: 900 | image_tag: widths: '360,540,720,900', sizes: '(min-width: 992px) 370px, (min-width: 600px) 46vw, 92vw', loading: 'lazy', alt: block.settings.image.alt }}
+              {% endif %}
+            </div>
+            <div class="lv-card__body">
+              <span class="lv-tag">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }} · {{ block.settings.tag }}</span>
+              <h3 class="lv-card__t">{{ block.settings.title }}</h3>
+              <p class="lv-card__d">{{ block.settings.text }}</p>
+              <span class="lv-card__more">{{ block.settings.more }}</span>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% if section.settings.more_text != blank %}<p class="lv-more lv-reveal">{{ section.settings.more_text }}</p>{% endif %}
+  </div>
+</section>
+{% schema %}
+{"name":"Lumevo – services","settings":[
+{"type":"select","id":"bg","label":"Fond","default":"lv-sec--paper","options":[{"value":"","label":"Blanc"},{"value":"lv-sec--paper","label":"Gris clair"}]},
+{"type":"text","id":"eyebrow","label":"Sur-titre","default":"Nos interventions"},
+{"type":"text","id":"title","label":"Titre (H2, 60 caractères max)","default":"Un électricien pour chaque besoin"},
+{"type":"textarea","id":"text","label":"Texte"},
+{"type":"richtext","id":"more_text","label":"Ligne de lien sous les cartes"}],
+"blocks":[{"type":"service","name":"Service","settings":[
+{"type":"image_picker","id":"image","label":"Photo"},
+{"type":"text","id":"tag","label":"Étiquette"},
+{"type":"text","id":"title","label":"Titre"},
+{"type":"textarea","id":"text","label":"Texte"},
+{"type":"text","id":"more","label":"Texte du lien","default":"Voir la prestation"},
+{"type":"url","id":"url","label":"Lien"}]}],
+"presets":[{"name":"Lumevo – services"}]}
+{% endschema %}

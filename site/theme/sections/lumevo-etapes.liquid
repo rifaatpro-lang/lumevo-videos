@@ -1,0 +1,21 @@
+<section class="lv lv-sec">
+  <div class="lv-wrap">
+    <div class="lv-head lv-reveal">
+      <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+      <h2 class="lv-h2">{{ section.settings.title }}</h2>
+    </div>
+    <ol class="lv-steps">
+      {% for block in section.blocks %}
+        <li class="lv-step lv-reveal" {{ block.shopify_attributes }}>
+          <h3 class="lv-step__t">{{ block.settings.title }}</h3>
+          <p class="lv-step__d">{{ block.settings.text }}</p>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+{% schema %}
+{"name":"Lumevo – étapes","max_blocks":4,"settings":[{"type":"text","id":"eyebrow","label":"Sur-titre"},{"type":"text","id":"title","label":"Titre (H2)"}],
+"blocks":[{"type":"etape","name":"Étape","settings":[{"type":"text","id":"title","label":"Titre"},{"type":"textarea","id":"text","label":"Texte"}]}],
+"presets":[{"name":"Lumevo – étapes"}]}
+{% endschema %}

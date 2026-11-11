@@ -1,0 +1,43 @@
+<section class="lv lv-hero">
+  <div class="lv-wrap lv-hero__grid">
+    <div class="lv-hero__txt">
+      <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+      <h1 class="lv-h1">{{ section.settings.title }}</h1>
+      <p class="lv-lead">{{ section.settings.text }}</p>
+      <div class="lv-actions">
+        <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          {{ section.settings.tel_label }} {{ section.settings.tel_text }}
+        </a>
+        <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url }}">{{ section.settings.devis_label }}</a>
+      </div>
+      {% if section.blocks.size > 0 %}
+        <ul class="lv-check">{% for block in section.blocks %}<li {{ block.shopify_attributes }}>{{ block.settings.text }}</li>{% endfor %}</ul>
+      {% endif %}
+    </div>
+    <div class="lv-hero__media">
+      {% if section.settings.video != blank %}
+        {{ section.settings.video | video_tag: autoplay: true, loop: true, muted: true, playsinline: true, controls: false, image_size: '1100x' }}
+      {% elsif section.settings.image != blank %}
+        {{ section.settings.image | image_url: width: 1400 | image_tag: widths: '420,640,860,1100,1400', sizes: '(min-width: 992px) 44vw, 100vw', loading: 'eager', fetchpriority: 'high', alt: section.settings.image.alt }}
+      {% endif %}
+      {% if section.settings.caption != blank %}<span class="lv-hero__cap">{{ section.settings.caption }}</span>{% endif %}
+    </div>
+  </div>
+</section>
+{% schema %}
+{"name":"Lumevo – ouverture","settings":[
+{"type":"text","id":"eyebrow","label":"Sur-titre","default":"Lumevo Électricien"},
+{"type":"text","id":"title","label":"Titre (H1, 50 caractères max)","default":"Électricien au Plessis-Bouchard"},
+{"type":"textarea","id":"text","label":"Texte"},
+{"type":"image_picker","id":"image","label":"Photo (vraie photo de chantier)"},
+{"type":"video","id":"video","label":"Vidéo (remplace la photo)"},
+{"type":"text","id":"caption","label":"Étiquette sur le visuel"},
+{"type":"text","id":"tel_label","label":"Bouton appel","default":"Appeler le"},
+{"type":"text","id":"tel_text","label":"Numéro affiché","default":"07 50 01 90 25"},
+{"type":"text","id":"tel_url","label":"Lien d'appel","default":"tel:0750019025"},
+{"type":"text","id":"devis_label","label":"Bouton devis","default":"Demander un devis gratuit"},
+{"type":"url","id":"devis_url","label":"Lien devis"}],
+"blocks":[{"type":"point","name":"Point fort","settings":[{"type":"text","id":"text","label":"Texte"}]}],
+"presets":[{"name":"Lumevo – ouverture"}]}
+{% endschema %}

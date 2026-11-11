@@ -1,0 +1,34 @@
+<section class="lv lv-sec lv-sec--ink">
+  <div class="lv-wrap lv-split">
+    <div class="lv-reveal">
+      <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+      <h2 class="lv-h2">{{ section.settings.title }}</h2>
+      <p class="lv-sub">{{ section.settings.text }}</p>
+      <div class="lv-actions">
+        <a class="lv-btn lv-btn--call" href="{{ section.settings.btn_url }}">{{ section.settings.btn_label }}</a>
+      </div>
+    </div>
+    <div class="lv-reveal">
+      <div class="lv-duo">
+        <figure>
+          <div class="lv-duo__img">{% if section.settings.image_a != blank %}{{ section.settings.image_a | image_url: width: 900 | image_tag: widths: '300,450,600,900', sizes: '(min-width: 992px) 300px, 45vw', loading: 'lazy', alt: section.settings.image_a.alt }}{% endif %}</div>
+          <figcaption><strong>{{ section.settings.label_a }}</strong>{{ section.settings.caption_a }}</figcaption>
+        </figure>
+        <figure>
+          <div class="lv-duo__img">{% if section.settings.image_b != blank %}{{ section.settings.image_b | image_url: width: 900 | image_tag: widths: '300,450,600,900', sizes: '(min-width: 992px) 300px, 45vw', loading: 'lazy', alt: section.settings.image_b.alt }}{% endif %}</div>
+          <figcaption><strong>{{ section.settings.label_b }}</strong>{{ section.settings.caption_b }}</figcaption>
+        </figure>
+      </div>
+      {% if section.settings.note != blank %}<p class="lv-note">{{ section.settings.note }}</p>{% endif %}
+    </div>
+  </div>
+</section>
+{% schema %}
+{"name":"Lumevo – constat et résultat","settings":[
+{"type":"text","id":"eyebrow","label":"Sur-titre"},{"type":"text","id":"title","label":"Titre (H2)"},{"type":"textarea","id":"text","label":"Texte"},
+{"type":"text","id":"btn_label","label":"Bouton"},{"type":"url","id":"btn_url","label":"Lien du bouton"},
+{"type":"image_picker","id":"image_a","label":"Photo 1 (constat)"},{"type":"text","id":"label_a","label":"Étiquette 1"},{"type":"text","id":"caption_a","label":"Légende 1"},
+{"type":"image_picker","id":"image_b","label":"Photo 2 (résultat)"},{"type":"text","id":"label_b","label":"Étiquette 2"},{"type":"text","id":"caption_b","label":"Légende 2"},
+{"type":"text","id":"note","label":"Mention sous les photos"}],
+"presets":[{"name":"Lumevo – constat et résultat"}]}
+{% endschema %}

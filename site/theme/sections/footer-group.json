@@ -1,0 +1,94 @@
+{
+ "type": "footer",
+ "name": "Groupe de pied de page",
+ "sections": {
+  "footer": {
+   "type": "footer",
+   "blocks": {
+    "menu_services": {
+     "type": "menu",
+     "settings": {
+      "menu": "footer-services",
+      "title": "NOS SERVICES",
+      "title_size": "h6"
+     }
+    },
+    "menu_zones": {
+     "type": "menu",
+     "settings": {
+      "menu": "footer-zones",
+      "title": "NOS ZONES",
+      "title_size": "h6"
+     }
+    },
+    "347c0c0a-1863-4236-a7ce-8cc6a91e5950": {
+     "type": "menu",
+     "settings": {
+      "menu": "footer",
+      "title": "MENTIONS LÉGALES",
+      "title_size": "h6"
+     }
+    },
+    "richtext_nVtXge": {
+     "type": "richtext",
+     "settings": {
+      "title": "Lumevo Électricien",
+      "title_size": "h6",
+      "description": "<p>Entreprise d'électricité basée au Plessis-Bouchard. Dépannage, tableaux électriques, mise aux normes, parties communes de copropriété, réseaux informatiques et vidéosurveillance dans le Val-d'Oise et en Île-de-France.</p>",
+      "btn_text": "",
+      "btn_url": "",
+      "btn_color": "btn-primary",
+      "btn_size": "btn-sm"
+     }
+    }
+   },
+   "block_order": [
+    "menu_services",
+    "menu_zones",
+    "347c0c0a-1863-4236-a7ce-8cc6a91e5950",
+    "richtext_nVtXge"
+   ],
+   "custom_css": [
+    "h3 {font-size: 15px;}"
+   ],
+   "settings": {
+    "bg_color": "bg-tertiary text-white",
+    "bg_gradient": false,
+    "container": "container",
+    "show_payment_icons": false,
+    "show_social_icons": false,
+    "show_powered_by": false,
+    "show_theme_by": false,
+    "language_selector_show": false,
+    "currency_selector_show": false,
+    "lang_currency_btn_color": "btn-outline-light",
+    "show_about_area": true,
+    "about_bg_color": "bg-white text-dark",
+    "about_bg_gradient": false,
+    "about_bg_transparent": false,
+    "about_logo": "shopify://shop_images/Lumevo-12.png",
+    "about_logo_height": 64,
+    "svg_logo_footer": "",
+    "logo_svg_height": 55,
+    "about_description": "<p><strong>Lumevo</strong> : l’électricité en toute sérénité.</p>",
+    "about_phone_text": "07 50 01 90 25",
+    "about_phone_url": "tel:0750019025",
+    "about_email_text": "contact@lumevo.fr",
+    "about_email_url": "mailto:contact@lumevo.fr",
+    "about_adresse_text": "87 rue Pasteur, 95130 Le Plessis-Bouchard",
+    "pt": 10,
+    "pb": 6
+   }
+  },
+  "lumevo-actionbar": {
+   "type": "lumevo-actionbar",
+   "settings": {
+    "devis_url": "shopify://pages/contact-devis"
+   }
+  }
+ },
+ "order": [
+  "footer",
+  "lumevo-actionbar"
+ ]
+}
