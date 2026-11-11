@@ -303,3 +303,8 @@ a.lv-city:hover{background:var(--lv-fill)!important;color:#fff!important}
 .lv-hero .lv-h1{font-size:2.3rem!important}
 .lv-phero .lv-h1{font-size:2rem!important}
 }
+/* Cartes d'articles de l'accueil : même style sobre que le blog */
+.latest-articles .card{border-color:var(--lv-line)!important;border-radius:14px!important;overflow:hidden;box-shadow:0 1px 2px rgba(11,27,43,.06)!important}
+.latest-articles .card a{text-decoration:none}
+.latest-articles .card .title,.latest-articles .card .title a{font-weight:700;letter-spacing:-.01em;color:var(--lv-ink)}
+.latest-articles .article-meta{margin-top:.35rem}
