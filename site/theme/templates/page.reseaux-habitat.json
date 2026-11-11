@@ -1,0 +1,343 @@
+{
+ "sections": {
+  "carousel_mR74Lm": {
+   "type": "carousel",
+   "blocks": {
+    "slide_MfNRyj": {
+     "type": "slide",
+     "settings": {
+      "img_mobile": "shopify://shop_images/Informations_du_reseau_informatique.jpg",
+      "img_mobile_height": 350,
+      "img_mobile_opacity": 0.4,
+      "img_mobile_blur": 0,
+      "caption_position_mobile": "carousel-caption-mobile-center",
+      "img_desktop": "shopify://shop_images/Informations_du_reseau_informatique.jpg",
+      "img_desktop_height": 480,
+      "img_desktop_opacity": 0.4,
+      "img_desktop_blur": 0,
+      "caption_position_desktop": "carousel-caption-desktop-center",
+      "caption_max_width": "720",
+      "caption_color": "#ffffff",
+      "brand_image_size": "60",
+      "subtitle": "La qualité de connexion dont vous avez besoin",
+      "subtitle_size": "fs-6",
+      "title": "Réseau informatique pour particuliers",
+      "heading_tag": "h1",
+      "title_size": "h3",
+      "description": "",
+      "description_size": "fs-5",
+      "btn_text": "",
+      "btn_url": "",
+      "btn_color": "btn-primary",
+      "btn_size": "btn-md",
+      "btn_secondary_text": "Obtenez votre devis",
+      "btn_secondary_url": "shopify://pages/contact-devis",
+      "btn_secondary_color": "btn-secondary",
+      "btn_secondary_size": "btn-md",
+      "slide_link": ""
+     }
+    }
+   },
+   "block_order": [
+    "slide_MfNRyj"
+   ],
+   "settings": {
+    "svg_border_bottom": "",
+    "reverse": false,
+    "mobheight_diapo-svg": 50,
+    "deskheight_diapo-svg": 100,
+    "color_diapo-svg": "#000000",
+    "controls": true,
+    "controls_style": "carousel-controls-arrows",
+    "indicators": true,
+    "indicators_style": "carousel-indicators-circles",
+    "autoplay": false,
+    "animation": "slide",
+    "ken_burns": false,
+    "lazyload": false,
+    "mt": 0,
+    "mb": 0
+   }
+  },
+  "image_with_text_LKa368": {
+   "type": "image-with-text",
+   "custom_css": [],
+   "settings": {
+    "background_img_opacity": 0.7,
+    "background_img_blur": 0,
+    "bg_color": "bg-body text-body",
+    "bg_gradient": false,
+    "container": "container",
+    "max_width": "991",
+    "desktop_image_width": "medium",
+    "text_align": "text-start",
+    "image": "shopify://shop_images/Une_baie_informatique.jpg",
+    "img_orientation": "landscape-x2",
+    "img_crop": "center",
+    "img_thumbnail": "",
+    "border_color": "",
+    "border_width": 0,
+    "shadow_sp": "shadow-none",
+    "img_align_desktop": "flex-lg-row-reverse",
+    "brand_image_size": "60",
+    "subtitle": "Neuf et rénovation",
+    "subtitle_size": "fs-6",
+    "color_caption": "#6c757d",
+    "title": "Une connectivité stable et rapide, pour un quotidien fluide",
+    "heading_tag": "h2",
+    "title_size": "h3",
+    "description": "<p>Dans un monde où la <strong>connectivité</strong> est essentielle, disposer d’un <strong>réseau WiFi performant</strong> n’est plus un luxe, mais une nécessité.</p><p>Nous concevons et installons des <strong>solutions WiFi</strong> adaptées à vos besoins.</p><p>Profitez d’une <strong>connexion rapide et fiable</strong> pour vos activités numériques, qu’il s’agisse de <strong>streaming</strong>, de <strong>télétravail</strong> ou de <strong>gaming</strong>.</p><p>Avec Lumevo, la connectivité devient un atout au quotidien.</p>",
+    "description_size": "fs-5",
+    "readmore": false,
+    "formread": 200,
+    "readmore_color": "#ffffff",
+    "text_voirplus": "Voir plus",
+    "text_voirmoins": "Voir moins",
+    "btn_text": "CONTACTEZ-NOUS",
+    "btn_url": "shopify://pages/contact-devis",
+    "btn_color": "btn-secondary",
+    "btn_size": "btn-md",
+    "pt": 7,
+    "pb": 7,
+    "mt": 0,
+    "mb": 0
+   }
+  },
+  "image_with_text_BdJ8W8": {
+   "type": "image-with-text",
+   "custom_css": [
+    "h3 {font-size: 16px;}"
+   ],
+   "settings": {
+    "background_img_opacity": 0.7,
+    "background_img_blur": 0,
+    "bg_color": "bg-body text-body",
+    "bg_gradient": false,
+    "container": "container",
+    "max_width": "991",
+    "desktop_image_width": "medium",
+    "text_align": "text-start",
+    "image": "shopify://shop_images/Cable_branche_dans_une_prise_RJ45.jpg",
+    "img_orientation": "landscape-x2",
+    "img_crop": "center",
+    "img_thumbnail": "",
+    "border_color": "",
+    "border_width": 0,
+    "shadow_sp": "shadow-none",
+    "img_align_desktop": "flex-lg-row",
+    "brand_image_size": "60",
+    "subtitle": "Neuf et rénovation",
+    "subtitle_size": "fs-6",
+    "color_caption": "#6c757d",
+    "title": "Des installations réseau fiables et adaptées à votre maison",
+    "heading_tag": "h2",
+    "title_size": "h3",
+    "description": "<p>Avec l’évolution constante des besoins numériques, disposer d’un réseau câblé fiable est devenu essentiel.</p><p>Chez Lumevo, nous installons des <strong>prises RJ45</strong> pour garantir une connexion stable et rapide, que ce soit pour votre télévision, ordinateur ou appareils connectés.</p><p>Nos solutions personnalisées répondent aux exigences modernes :</p><ul><li><strong>Streaming fluide</strong></li><li><strong>Télétravail sans interruptions</strong></li><li><strong>Gaming performant</strong></li><li><strong>Navigation en ligne rapide et sécurisée</strong></li></ul><p>Chaque installation est adaptée à la configuration de votre domicile, assurant un réseau performant pour toutes vos activités.</p>",
+    "description_size": "fs-5",
+    "readmore": false,
+    "formread": 200,
+    "readmore_color": "#ffffff",
+    "text_voirplus": "Voir plus",
+    "text_voirmoins": "Voir moins",
+    "btn_text": "",
+    "btn_url": "",
+    "btn_color": "btn-secondary",
+    "btn_size": "btn-md",
+    "pt": 7,
+    "pb": 7,
+    "mt": 0,
+    "mb": 0
+   }
+  },
+  "timeline_9YqWFB": {
+   "type": "timeline",
+   "blocks": {
+    "item_gNFibH": {
+     "type": "item",
+     "settings": {
+      "text_align": "text-start",
+      "border_color": "",
+      "border_width": 1,
+      "shadow_sp": "shadow-1",
+      "animation": "animate__zoomIn",
+      "animation_speed": "animate__fast",
+      "img_orientation": "landscape-16x9",
+      "img_crop": "center",
+      "date": "1ᵉʳ étape",
+      "date_bg_color": "bg-secondary text-white",
+      "title": "Prise de contact",
+      "title_size": "h4",
+      "description": "<p> Vous nous expliquez vos besoins dans la rubrique Contact & Devis, Vous êtes recontacté dans les 24h !</p>",
+      "description_size": "fs-6",
+      "btn_text": "CONTACTEZ-NOUS",
+      "btn_url": "shopify://pages/contact-devis",
+      "btn_color": "btn-secondary",
+      "btn_size": "btn-sm"
+     }
+    },
+    "item_adbXyB": {
+     "type": "item",
+     "settings": {
+      "text_align": "text-start",
+      "border_color": "",
+      "border_width": 1,
+      "shadow_sp": "shadow-1",
+      "animation": "animate__zoomIn",
+      "animation_speed": "animate__fast",
+      "img_orientation": "landscape-16x9",
+      "img_crop": "center",
+      "date": "2ᵉ étape",
+      "date_bg_color": "bg-secondary text-white",
+      "title": "Étude et devis",
+      "title_size": "h4",
+      "description": "<p>Nous analysons votre projet et proposons une solution sur mesure avec un devis détaillé gratuitement.</p>",
+      "description_size": "fs-6",
+      "btn_text": "",
+      "btn_url": "",
+      "btn_color": "btn-primary",
+      "btn_size": "btn-sm"
+     }
+    },
+    "item_cMFHBA": {
+     "type": "item",
+     "settings": {
+      "text_align": "text-start",
+      "border_color": "",
+      "border_width": 1,
+      "shadow_sp": "shadow-1",
+      "animation": "animate__zoomIn",
+      "animation_speed": "animate__fast",
+      "img_orientation": "landscape-16x9",
+      "img_crop": "center",
+      "date": "3ᵉ étape",
+      "date_bg_color": "bg-secondary text-white",
+      "title": "Planification et intervention",
+      "title_size": "h4",
+      "description": "<p>Une fois le devis validé, nous planifions les travaux avec précision en tenant compte de vos disponibilités. Chaque étape du projet est organisée pour garantir une exécution fluide. Nos interventions sont réalisées avec soin, dans le respect des délais et des engagements pris.</p>",
+      "description_size": "fs-6",
+      "btn_text": "",
+      "btn_url": "",
+      "btn_color": "btn-primary",
+      "btn_size": "btn-sm"
+     }
+    },
+    "item_zVMtHw": {
+     "type": "item",
+     "settings": {
+      "text_align": "text-start",
+      "border_color": "",
+      "border_width": 1,
+      "shadow_sp": "shadow-1",
+      "animation": "animate__zoomIn",
+      "animation_speed": "animate__fast",
+      "img_orientation": "landscape-16x9",
+      "img_crop": "center",
+      "date": "4ᵉ étape",
+      "date_bg_color": "bg-secondary text-white",
+      "title": "Contrôle final et suivi",
+      "title_size": "h4",
+      "description": "<p>Avant la livraison, nous procédons à un contrôle rigoureux de l’installation pour nous assurer que tout est conforme et fonctionne parfaitement. </p><p><strong>Votre satisfaction est notre priorité. </strong></p><p>Nous restons également disponibles après les travaux pour répondre à vos questions et effectuer des vérifications ou entretiens si nécessaire.</p>",
+      "description_size": "fs-6",
+      "btn_text": "",
+      "btn_url": "",
+      "btn_color": "btn-primary",
+      "btn_size": "btn-sm"
+     }
+    }
+   },
+   "block_order": [
+    "item_gNFibH",
+    "item_adbXyB",
+    "item_cMFHBA",
+    "item_zVMtHw"
+   ],
+   "settings": {
+    "bg_color": "bg-white text-dark",
+    "bg_gradient": false,
+    "container": "container",
+    "max_width": "",
+    "text_align": "text-center",
+    "brand_image_size": "60",
+    "subtitle": "De l’idée à la réalisation, découvrez notre processus",
+    "subtitle_size": "fs-6",
+    "color_caption": "#82878c",
+    "title_overlay": "Chronologie",
+    "title_overlay_size": "3",
+    "color_title_overlay": "#000000",
+    "title": "Les étapes de votre projet réseau avec Lumevo",
+    "heading_tag": "h2",
+    "title_size": "h3",
+    "description": "",
+    "description_size": "fs-5",
+    "timeline_line_width": 4,
+    "timeline_line_color": "bs-primary",
+    "timeline_dot_diameter": 20,
+    "btn_text": "Prendre contact",
+    "btn_url": "shopify://pages/contact-devis",
+    "btn_color": "btn-secondary",
+    "pt": 10,
+    "pb": 14,
+    "mt": 0,
+    "mb": 0
+   }
+  },
+  "lv_preuves": {
+   "type": "lumevo-preuves",
+   "blocks": {
+    "preuve_1": {
+     "type": "preuve",
+     "settings": {
+      "icon": "devis",
+      "title": "Devis gratuit et détaillé",
+      "text": "Le prix est écrit avant le début des travaux."
+     }
+    },
+    "preuve_2": {
+     "type": "preuve",
+     "settings": {
+      "icon": "assurance",
+      "title": "Travaux assurés",
+      "text": "Assurance décennale et responsabilité civile professionnelle."
+     }
+    },
+    "preuve_3": {
+     "type": "preuve",
+     "settings": {
+      "icon": "norme",
+      "title": "Norme NF C 15-100",
+      "text": "Des installations sûres, contrôlées avant notre départ."
+     }
+    },
+    "preuve_4": {
+     "type": "preuve",
+     "settings": {
+      "icon": "ok",
+      "title": "Chantier laissé propre",
+      "text": "Matériel de marques reconnues, pose soignée."
+     }
+    }
+   },
+   "block_order": [
+    "preuve_1",
+    "preuve_2",
+    "preuve_3",
+    "preuve_4"
+   ],
+   "settings": {}
+  },
+  "lv_cta": {
+   "type": "lumevo-cta",
+   "settings": {
+    "devis_url": "shopify://pages/contact-devis"
+   }
+  }
+ },
+ "order": [
+  "carousel_mR74Lm",
+  "image_with_text_LKa368",
+  "image_with_text_BdJ8W8",
+  "timeline_9YqWFB",
+  "lv_preuves",
+  "lv_cta"
+ ]
+}

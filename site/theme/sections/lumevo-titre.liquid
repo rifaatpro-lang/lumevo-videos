@@ -1,7 +1,7 @@
 <section class="lv lv-phero">
   <div class="lv-wrap">
     <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
-    <h1 class="lv-h1">{{ page.title }}</h1>
+    <h1 class="lv-h1">{{ section.settings.title | default: page.title | default: blog.title }}</h1>
     {% if section.settings.text != blank %}<p class="lv-lead" style="margin-top:.8em">{{ section.settings.text }}</p>{% endif %}
     <div class="lv-actions">
       <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_label }} {{ section.settings.tel_text }}</a>
@@ -15,6 +15,7 @@
 {% schema %}
 {"name":"Lumevo – titre de page","settings":[
 {"type":"text","id":"eyebrow","label":"Sur-titre","default":"Lumevo Électricien · Val-d'Oise (95)"},
+{"type":"text","id":"title","label":"Titre (vide = titre de la page ou du blog)"},
 {"type":"textarea","id":"text","label":"Texte"},
 {"type":"checkbox","id":"show_content","label":"Afficher le texte de la page","default":false},
 {"type":"text","id":"tel_label","label":"Bouton appel","default":"Appeler le"},{"type":"text","id":"tel_text","label":"Numéro affiché","default":"07 50 01 90 25"},{"type":"text","id":"tel_url","label":"Lien d'appel","default":"tel:0750019025"},

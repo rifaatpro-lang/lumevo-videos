@@ -207,3 +207,13 @@ body{padding-bottom:60px}
 .article-content.rte a{color:var(--lv-blue-d);font-weight:600;text-underline-offset:3px}
 .article-content.rte img{max-width:100%;height:auto;border-radius:14px}
 .article-content.rte table{display:block;max-width:100%;overflow-x:auto}
+/* Blog et articles : un seul fil d'Ariane (celui de l'en-tête), cartes et image sobres */
+#main div.breadcrumbs-wrapper{display:none!important}
+.blog .blog-utilities{background:var(--lv-paper)!important;border:1px solid var(--lv-line);border-radius:14px!important;justify-content:flex-end!important}
+.blog .card{border-color:var(--lv-line)!important;border-radius:14px!important;overflow:hidden;box-shadow:0 1px 2px rgba(11,27,43,.06)!important}
+.blog .card a{text-decoration:none}
+.blog .card .title,.blog .card .title a{font-weight:700;letter-spacing:-.01em;color:var(--lv-ink)}
+.article-img.img-thumbnail,.article-item-img.img-thumbnail{padding:0!important;border:0!important;border-radius:14px!important;box-shadow:none!important}
+.btn-share{border-color:var(--lv-line)!important;color:var(--lv-ink)!important}
+/* Pages réseau et vidéosurveillance (anciennes sections conservées) */
+#main .carousel .carousel-caption .btn,#main .timeline .btn{letter-spacing:0;font-weight:600;border-radius:10px}

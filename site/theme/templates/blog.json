@@ -1,0 +1,56 @@
+{
+ "sections": {
+  "titre": {
+   "type": "lumevo-titre",
+   "settings": {
+    "eyebrow": "Conseils d'électricien · Val-d'Oise (95)",
+    "title": "",
+    "text": "Pannes, normes, tableaux, parties communes de copropriété : nos conseils pour comprendre votre installation et décider sereinement.",
+    "show_content": false,
+    "devis_url": "shopify://pages/contact-devis"
+   }
+  },
+  "template-blog": {
+   "type": "template-blog",
+   "settings": {
+    "blog": "electricite",
+    "title_show": false,
+    "heading_tag": "h1",
+    "title_size": "h1",
+    "limit": 33,
+    "show_filter_by": true,
+    "article_img_orientation": "landscape-2",
+    "article_title_size": "h5",
+    "article_meta_author": true,
+    "article_meta_date": true,
+    "article_excerpt": true,
+    "border_color": "border-primary",
+    "border_width": 1,
+    "shadow_sp": "shadow-1",
+    "animation": "animate__zoomIn",
+    "animation_speed": "animate__fast",
+    "breakpoint_xs": 1,
+    "breakpoint_sm": 2,
+    "breakpoint_md": 2,
+    "breakpoint_lg": 3,
+    "breakpoint_xl": 3,
+    "breakpoint_xxl": 3,
+    "pt": 5,
+    "pb": 5,
+    "mt": 5,
+    "mb": 5
+   }
+  },
+  "cta": {
+   "type": "lumevo-cta",
+   "settings": {
+    "devis_url": "shopify://pages/contact-devis"
+   }
+  }
+ },
+ "order": [
+  "titre",
+  "template-blog",
+  "cta"
+ ]
+}
