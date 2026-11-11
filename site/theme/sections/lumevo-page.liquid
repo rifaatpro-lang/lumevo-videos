@@ -4,7 +4,7 @@
     <h1 class="lv-h1">{{ page.title }}</h1>
     <div class="lv-actions">
       <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_label }} {{ section.settings.tel_text }}</a>
-      <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url }}">{{ section.settings.devis_label }}</a>
+      <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url | default: '/pages/contact-devis' }}">{{ section.settings.devis_label }}</a>
     </div>
   </div>
 </section>
@@ -17,7 +17,7 @@
         <p class="lv-aside__d">{{ section.settings.aside_text }}</p>
         <div class="lv-actions">
           <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_text }}</a>
-          <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url }}">{{ section.settings.devis_label }}</a>
+          <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url | default: '/pages/contact-devis' }}">{{ section.settings.devis_label }}</a>
         </div>
         {% if section.blocks.size > 0 %}<ul class="lv-check">{% for block in section.blocks %}<li {{ block.shopify_attributes }}>{{ block.settings.text }}</li>{% endfor %}</ul>{% endif %}
       </div>

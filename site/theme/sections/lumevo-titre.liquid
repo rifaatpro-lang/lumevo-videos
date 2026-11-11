@@ -5,7 +5,7 @@
     {% if section.settings.text != blank %}<p class="lv-lead" style="margin-top:.8em">{{ section.settings.text }}</p>{% endif %}
     <div class="lv-actions">
       <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_label }} {{ section.settings.tel_text }}</a>
-      {% if section.settings.devis_label != blank %}<a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url }}">{{ section.settings.devis_label }}</a>{% endif %}
+      {% if section.settings.devis_label != blank %}<a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url | default: '/pages/contact-devis' }}">{{ section.settings.devis_label }}</a>{% endif %}
     </div>
   </div>
 </section>

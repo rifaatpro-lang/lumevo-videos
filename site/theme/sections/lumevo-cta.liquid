@@ -5,7 +5,7 @@
     <p class="lv-sub">{{ section.settings.text }}</p>
     <div class="lv-actions">
       <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_label }} {{ section.settings.tel_text }}</a>
-      <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url }}">{{ section.settings.devis_label }}</a>
+      <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url | default: '/pages/contact-devis' }}">{{ section.settings.devis_label }}</a>
     </div>
   </div>
 </section>
