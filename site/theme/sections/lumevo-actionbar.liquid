@@ -18,7 +18,7 @@ e.forEach(function(n){o.observe(n)});setTimeout(function(){e.forEach(function(n)
 var t=b.querySelector('a[href^="tel:"]'),u=document.querySelector('#navbar-mobile .col-3:last-child .nav');
 if(t&&u&&!u.querySelector('.lv-hcall')){var a=document.createElement('a');a.className='lv-hcall';a.href=t.getAttribute('href');a.setAttribute('aria-label',t.getAttribute('aria-label')||'Appeler');a.innerHTML=t.querySelector('svg').outerHTML;u.appendChild(a)}
 var h=document.querySelector('.lv-hero .lv-actions,.lv-phero .lv-actions');
-if(h&&'IntersectionObserver' in window){new IntersectionObserver(function(x){b.classList.toggle('is-off',x[0].isIntersecting)},{threshold:.6}).observe(h)}
+if(h&&'IntersectionObserver' in window){b.style.transition='none';b.classList.add('is-off');setTimeout(function(){b.style.transition=''},400);new IntersectionObserver(function(x){b.classList.toggle('is-off',x[0].isIntersecting)},{threshold:.6}).observe(h)}
 })();
 </script>
 {% schema %}
