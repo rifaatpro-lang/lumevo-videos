@@ -308,3 +308,8 @@ a.lv-city:hover{background:var(--lv-fill)!important;color:#fff!important}
 .latest-articles .card a{text-decoration:none}
 .latest-articles .card .title,.latest-articles .card .title a{font-weight:700;letter-spacing:-.01em;color:var(--lv-ink)}
 .latest-articles .article-meta{margin-top:.35rem}
+/* Formulaire de contact : champs et bouton à la taille du doigt */
+#main form[action*="/contact"] .form-control,#main form[action*="/contact"] input:not([type=hidden]):not([type=checkbox]):not([type=radio]),#main form[action*="/contact"] select{min-height:48px;border-radius:10px;font-size:16px;border-color:var(--lv-line)}
+#main form[action*="/contact"] textarea{border-radius:10px;font-size:16px;border-color:var(--lv-line)}
+#main form[action*="/contact"] .form-control:focus{border-color:var(--lv-fill);box-shadow:0 0 0 3px rgba(38,116,162,.2)}
+#main form[action*="/contact"] button[type=submit],#main form[action*="/contact"] input[type=submit]{min-height:52px;border-radius:10px;font-weight:700;font-size:1.05rem}
