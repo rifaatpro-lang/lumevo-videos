@@ -15,7 +15,7 @@
    "settings": {
     "blog": "electricite",
     "title_show": false,
-    "heading_tag": "h1",
+    "heading_tag": "h2",
     "title_size": "h1",
     "limit": 33,
     "show_filter_by": true,

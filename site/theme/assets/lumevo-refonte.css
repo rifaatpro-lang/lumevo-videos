@@ -217,3 +217,7 @@ body{padding-bottom:60px}
 .btn-share{border-color:var(--lv-line)!important;color:var(--lv-ink)!important}
 /* Pages réseau et vidéosurveillance (anciennes sections conservées) */
 #main .carousel .carousel-caption .btn,#main .timeline .btn{letter-spacing:0;font-weight:600;border-radius:10px}
+/* Lisibilité : sur-titres à 13 px minimum ; blog : le titre H1 est dans l'en-tête Lumevo */
+.lv-eyebrow{font-size:.8125rem!important}
+.blog>.container>.title,.blog .container>.title.text-center{display:none!important}
+#main small,#main .small,#main .fs-7{font-size:.875rem}
