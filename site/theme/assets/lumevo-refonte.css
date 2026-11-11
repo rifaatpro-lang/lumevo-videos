@@ -236,3 +236,13 @@ body{padding-bottom:60px}
 .shopify-section-group-header-group[id$="__navbar"]{position:static!important}
 }
 #main .btn:not(.lv-btn){letter-spacing:.01em}
+/* Menu d'ordinateur sur une seule ligne : le logo et le bouton prennent leur largeur, le menu prend le reste */
+@media (min-width:992px){
+#navbar-desktop .row>.col-3{flex:0 0 auto!important;width:auto!important}
+#navbar-desktop .row>.col-6{flex:1 1 0!important;width:auto!important;min-width:0}
+#navbar-desktop .nav-links{flex-wrap:nowrap!important}
+#navbar-desktop .nav-links .nav-link{white-space:nowrap}
+}
+@media (min-width:992px) and (max-width:1199.98px){
+#navbar-desktop .nav-links .nav-link{font-size:.9rem!important;padding-left:.4rem!important;padding-right:.4rem!important}
+}
