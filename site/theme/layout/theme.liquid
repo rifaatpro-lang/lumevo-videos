@@ -12,6 +12,11 @@
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    {%- unless settings.font_body.system -%}
+    {%- assign lv_font_bold = settings.font_body | font_modify: 'weight', 'bold' -%}
+    <link rel="preload" as="font" type="font/woff2" href="{{ settings.font_body | font_url }}" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="{{ lv_font_bold | font_url }}" crossorigin>
+    {%- endunless -%}
 
     {%- unless settings.favicon == blank -%}
         <link rel="icon" type="image/png" sizes="16x16" href="{{ settings.favicon | image_url: width: 16, height: 16, crop: 'center' }}">
