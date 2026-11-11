@@ -1,11 +1,49 @@
-<section class="lv lv-phero">
-  <div class="lv-wrap">
-    <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
-    <h1 class="lv-h1">{{ page.title }}</h1>
-    <div class="lv-actions">
-      <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_label }} {{ section.settings.tel_text }}</a>
-      <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url | default: '/pages/contact-devis' }}">{{ section.settings.devis_label }}</a>
+{%- comment -%} Photo d'illustration de l'en-tête, choisie selon la page (fichiers « lumevo-illustration-… » des Fichiers Shopify, photos libres de droit). Une page absente de la liste garde l'en-tête sans photo. {%- endcomment -%}
+{%- liquid
+  assign lv_img = ''
+  assign lv_alt = ''
+  case page.handle
+    when 'depannage-electrique'
+      assign lv_img = 'lumevo-illustration-pince-amperemetrique.jpg'
+      assign lv_alt = "Pince ampèremétrique et outils d'électricien"
+    when 'urgence-electricien-24h-24'
+      assign lv_img = 'lumevo-illustration-armoire-cablage.jpg'
+      assign lv_alt = "Câblage d'une armoire électrique"
+    when 'tableaux-electriques'
+      assign lv_img = 'lumevo-illustration-tableau-disjoncteurs.jpg'
+      assign lv_alt = 'Rangée de disjoncteurs dans un tableau électrique'
+    when 'mise-aux-normes-electriques'
+      assign lv_img = 'lumevo-illustration-tableau-protections.jpg'
+      assign lv_alt = 'Protections câblées dans un tableau électrique'
+    when 'installation-electrique'
+      assign lv_img = 'lumevo-illustration-eclairage-led.jpg'
+      assign lv_alt = 'Éclairage LED encastré dans un plafond'
+    when 'electricien-syndic-copropriete'
+      assign lv_img = 'lumevo-illustration-couloir-immeuble.jpg'
+      assign lv_alt = "Couloir d'immeuble éclairé"
+    when 'reseaux-informatiques'
+      assign lv_img = 'lumevo-illustration-baie-reseau.jpg'
+      assign lv_alt = 'Câbles réseau dans une baie de brassage'
+    when 'videosurveillance'
+      assign lv_img = 'lumevo-illustration-camera-surveillance.jpg'
+      assign lv_alt = 'Caméra de vidéosurveillance fixée sous un plafond'
+  endcase
+-%}
+<section class="lv lv-phero{% if lv_img != '' %} lv-phero--img{% endif %}">
+  <div class="lv-wrap lv-phero__grid">
+    <div>
+      <p class="lv-eyebrow">{{ section.settings.eyebrow }}</p>
+      <h1 class="lv-h1">{{ page.title }}</h1>
+      <div class="lv-actions">
+        <a class="lv-btn lv-btn--call" href="{{ section.settings.tel_url }}">{{ section.settings.tel_label }} {{ section.settings.tel_text }}</a>
+        <a class="lv-btn lv-btn--ghost" href="{{ section.settings.devis_url | default: '/pages/contact-devis' }}">{{ section.settings.devis_label }}</a>
+      </div>
     </div>
+    {% if lv_img != '' %}
+    <div class="lv-phero__media">
+      <img src="{{ lv_img | file_img_url: '1000x' }}" srcset="{{ lv_img | file_img_url: '480x' }} 480w, {{ lv_img | file_img_url: '760x' }} 760w, {{ lv_img | file_img_url: '1000x' }} 1000w, {{ lv_img | file_img_url: '1400x' }} 1400w" sizes="(min-width: 992px) 42vw, 94vw" width="1000" height="667" alt="{{ lv_alt | escape }}" loading="eager" fetchpriority="high" decoding="async">
+    </div>
+    {% endif %}
   </div>
 </section>
 <section class="lv lv-sec lv-page">

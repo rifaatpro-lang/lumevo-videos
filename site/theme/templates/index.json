@@ -31,8 +31,8 @@
     "eyebrow": "Lumevo Électricien · Le Plessis-Bouchard (95)",
     "title": "Électricien au Plessis-Bouchard et Val-d'Oise",
     "text": "Panne, tableau à remplacer, mise aux normes, parties communes de copropriété : nous intervenons dans tout le Val-d'Oise, avec un devis gratuit et clair avant travaux.",
-    "image": "shopify://shop_images/lumevo-tableau-electrique-porte-ouverte.jpg",
-    "caption": "Tableau neuf · circuits repérés",
+    "image": "shopify://shop_images/lumevo-illustration-controle-tableau.jpg",
+    "caption": "",
     "devis_url": "shopify://pages/contact-devis"
    }
   },
@@ -86,7 +86,7 @@
     "service_1": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-cablage-tableau-a-reprendre.jpg",
+      "image": "shopify://shop_images/lumevo-illustration-pince-amperemetrique.jpg",
       "tag": "Dépannage",
       "title": "Dépannage électrique",
       "text": "Disjoncteur qui saute, prise qui chauffe, panne de courant : nous trouvons la cause et nous réparons.",
@@ -97,7 +97,7 @@
     "service_2": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-tableau-electrique-neuf-repere.jpg",
+      "image": "shopify://shop_images/lumevo-illustration-tableau-disjoncteurs.jpg",
       "tag": "Tableau",
       "title": "Tableau électrique",
       "text": "Remplacement d'un tableau ancien ou à fusibles par un tableau neuf, repéré circuit par circuit.",
@@ -108,7 +108,7 @@
     "service_3": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-ancien-tableau-electrique.jpg",
+      "image": "shopify://shop_images/lumevo-illustration-tableau-protections.jpg",
       "tag": "Conformité",
       "title": "Mise aux normes",
       "text": "Diagnostic de votre installation, puis remise en sécurité selon la norme NF C 15-100.",
@@ -119,7 +119,7 @@
     "service_4": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-ancien-tableau-parties-communes.jpg",
+      "image": "shopify://shop_images/lumevo-illustration-couloir-immeuble.jpg",
       "tag": "Copropriété",
       "title": "Syndics et copropriétés",
       "text": "Éclairage des parties communes, tableaux des services généraux, contrôle d'accès : un seul interlocuteur pour vos immeubles.",
@@ -130,7 +130,7 @@
     "service_5": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-coffret-informatique-mural.jpg",
+      "image": "shopify://shop_images/lumevo-illustration-baie-reseau.jpg",
       "tag": "Réseau",
       "title": "Réseaux informatiques",
       "text": "Baie, coffret, câblage et prises RJ45, pour la maison comme pour les bureaux.",
@@ -141,7 +141,7 @@
     "service_6": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-camera-videosurveillance-dome.jpg",
+      "image": "shopify://shop_images/lumevo-illustration-camera-surveillance.jpg",
       "tag": "Sécurité",
       "title": "Vidéosurveillance",
       "text": "Caméras, enregistreur et accès à distance, posés proprement et réglés avec vous.",

@@ -8,12 +8,12 @@
     <ul class="lv-cards">
       {% for block in section.blocks %}
         <li class="lv-reveal" {{ block.shopify_attributes }}>
-          <a class="lv-card" href="{{ block.settings.url }}">
+          <a class="lv-card{% if block.settings.image == blank %} lv-card--plain{% endif %}" href="{{ block.settings.url }}">
+            {% if block.settings.image != blank %}
             <div class="lv-card__img">
-              {% if block.settings.image != blank %}
                 {{ block.settings.image | image_url: width: 900 | image_tag: widths: '360,540,720,900', sizes: '(min-width: 992px) 370px, (min-width: 600px) 46vw, 92vw', loading: 'lazy', alt: block.settings.image.alt }}
-              {% endif %}
             </div>
+            {% endif %}
             <div class="lv-card__body">
               <span class="lv-tag">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }} · {{ block.settings.tag }}</span>
               <h3 class="lv-card__t">{{ block.settings.title }}</h3>

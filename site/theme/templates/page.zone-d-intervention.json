@@ -87,7 +87,6 @@
     "service_1": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-cablage-tableau-a-reprendre.jpg",
       "tag": "Dépannage",
       "title": "Dépannage électrique",
       "text": "Disjoncteur qui saute, prise qui chauffe, panne de courant : nous trouvons la cause et nous réparons.",
@@ -98,7 +97,6 @@
     "service_2": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-tableau-electrique-neuf-repere.jpg",
       "tag": "Tableau",
       "title": "Tableau électrique",
       "text": "Remplacement d'un tableau ancien ou à fusibles par un tableau neuf, repéré circuit par circuit.",
@@ -109,7 +107,6 @@
     "service_3": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-ancien-tableau-electrique.jpg",
       "tag": "Conformité",
       "title": "Mise aux normes",
       "text": "Diagnostic de votre installation, puis remise en sécurité selon la norme NF C 15-100.",
@@ -120,7 +117,6 @@
     "service_4": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-ancien-tableau-parties-communes.jpg",
       "tag": "Copropriété",
       "title": "Syndics et copropriétés",
       "text": "Éclairage des parties communes, tableaux des services généraux, contrôle d'accès : un seul interlocuteur pour vos immeubles.",
@@ -131,7 +127,6 @@
     "service_5": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-coffret-informatique-mural.jpg",
       "tag": "Réseau",
       "title": "Réseaux informatiques",
       "text": "Baie, coffret, câblage et prises RJ45, pour la maison comme pour les bureaux.",
@@ -142,7 +137,6 @@
     "service_6": {
      "type": "service",
      "settings": {
-      "image": "shopify://shop_images/lumevo-camera-videosurveillance-dome.jpg",
       "tag": "Sécurité",
       "title": "Vidéosurveillance",
       "text": "Caméras, enregistreur et accès à distance, posés proprement et réglés avec vous.",

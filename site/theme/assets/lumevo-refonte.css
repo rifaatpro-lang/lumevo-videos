@@ -37,7 +37,7 @@
 .lv-actions{display:grid;gap:12px;margin-top:26px}
 .lv-check{display:flex;flex-wrap:wrap;gap:10px 22px;margin:24px 0 0;padding:0;list-style:none}
 .lv-check li{display:flex;align-items:center;gap:.5em;font-size:.93rem;color:#D8E5EF}
-.lv-check li::before{content:"";flex:0 0 18px;height:18px;border-radius:50%;background:var(--lv-blue) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230B1B2B' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/12px no-repeat}
+.lv-check li::before{content:"";flex:0 0 18px;height:18px;border-radius:50%;background:var(--lv-blue) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/12px no-repeat}
 /* Accueil : ouverture */
 .lv-hero{position:relative;overflow:hidden;background:var(--lv-ink);color:#fff}
 .lv-hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(140,195,225,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(140,195,225,.07) 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(120% 90% at 100% 0,#000 0,transparent 70%);mask-image:radial-gradient(120% 90% at 100% 0,#000 0,transparent 70%);pointer-events:none}
@@ -246,3 +246,25 @@ body{padding-bottom:60px}
 @media (min-width:992px) and (max-width:1199.98px){
 #navbar-desktop .nav-links .nav-link{font-size:.9rem!important;padding-left:.4rem!important;padding-right:.4rem!important}
 }
+/* Lisibilité (retour de Rifaat) : plus de texte foncé sur bleu. Fonds pleins en bleu soutenu #2674A2, texte blanc (contraste 5,1). Le bleu #3B8BB9 reste la couleur d'accent (traits, repères). */
+:root{--lv-fill:#2674A2;--lv-fill-h:#1F6590;--bs-secondary:#2674A2;--bs-secondary-rgb:38,116,162;--bs-secondary-darken-5:#226A94;--bs-secondary-darken-10:#1F6590;--bs-secondary-lighten-5:#2B7FB1;--bs-secondary-lighten-10:#3B8BB9}
+.btn-secondary,.lv-btn--call,#navbar-desktop .btn{background:var(--lv-fill)!important;border-color:var(--lv-fill)!important;color:#fff!important}
+.btn-secondary:hover,.lv-btn--call:hover,#navbar-desktop .btn:hover{background:var(--lv-fill-h)!important;border-color:var(--lv-fill-h)!important;color:#fff!important}
+.lv-hero .lv-btn--call,.lv-phero .lv-btn--call,.lv-cta .lv-btn--call,.lv-bar .lv-btn--call{box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}
+.bg-secondary{background-color:var(--lv-fill)!important;color:#fff!important}
+.bg-secondary a,.bg-secondary .nav-link{color:#fff!important}
+a.lv-city:hover{background:var(--lv-fill)!important;color:#fff!important}
+.lv-check li::before{background-color:var(--lv-fill)}
+/* En-tête des pages avec photo d'illustration */
+.lv-phero__grid{display:grid;gap:22px}
+.lv-phero__media{overflow:hidden;border-radius:var(--lv-r);aspect-ratio:16/9;background:var(--lv-ink2)}
+.lv-phero__media img{display:block;width:100%;height:100%;object-fit:cover}
+@media (min-width:992px){
+.lv-phero--img{padding:44px 0 48px}
+.lv-phero--img .lv-phero__grid{grid-template-columns:1.08fr .92fr;align-items:center;gap:48px}
+.lv-phero__media{aspect-ratio:16/10;box-shadow:0 24px 60px -24px rgba(0,0,0,.6)}
+}
+@media (max-height:480px) and (orientation:landscape){.lv-phero__media{display:none}}
+/* Cartes de services sans photo (bas des pages) */
+.lv-card--plain{border-top:3px solid var(--lv-blue)}
+.lv-card--plain .lv-card__body{padding-top:20px}
