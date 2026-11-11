@@ -268,3 +268,28 @@ a.lv-city:hover{background:var(--lv-fill)!important;color:#fff!important}
 /* Cartes de services sans photo (bas des pages) */
 .lv-card--plain{border-top:3px solid var(--lv-blue)}
 .lv-card--plain .lv-card__body{padding-top:20px}
+/* Haut de page sur téléphone (retour de Rifaat) : la photo en premier, le titre posé dessus, un seul jeu de boutons à l'écran */
+@media (max-width:991.98px){
+.shopify-section-group-header-group .announcement-bar{display:none!important}
+.lv-bar{transition:transform .28s ease}
+.lv-bar.is-off{transform:translateY(115%)}
+.lv-hcall{display:inline-grid;place-items:center;width:44px;height:44px;margin-right:-4px;border-radius:12px;background:var(--lv-fill);color:#fff!important}
+.lv-hcall svg{width:20px;height:20px}
+}
+@media (min-width:992px){.lv-hcall{display:none}}
+.lv-nw{white-space:nowrap}
+@media (max-width:599.98px){
+.lv-hero__grid{gap:0;padding-top:0}
+.lv-hero__media{order:-1;margin:0 -20px;aspect-ratio:16/11}
+.lv-hero__media::after,.lv-phero__media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,27,43,.1) 0%,rgba(11,27,43,0) 30%,rgba(11,27,43,.72) 76%,#0B1B2B 100%);pointer-events:none}
+.lv-hero__txt{position:relative;z-index:1;margin-top:-58px;padding-bottom:30px}
+.lv-hero .lv-eyebrow,.lv-phero .lv-eyebrow{font-size:.75rem!important;letter-spacing:.06em;white-space:nowrap;color:#CFE6F4;text-shadow:0 1px 8px rgba(11,27,43,.8)}
+.lv-hero .lv-eyebrow::before,.lv-phero .lv-eyebrow::before{display:none}
+.lv-hero .lv-h1{font-size:clamp(1.95rem,8.6vw,2.45rem);margin-bottom:.4em}
+.lv-hero .lv-lead{font-size:1.02rem;line-height:1.55}
+.lv-hero .lv-check{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:18px;font-size:.9rem}
+.lv-phero--img{padding-top:0}
+.lv-phero--img .lv-phero__grid{gap:0}
+.lv-phero--img .lv-phero__media{position:relative;order:-1;margin:0 -20px;border-radius:0;aspect-ratio:16/10}
+.lv-phero--img .lv-phero__grid>div:first-child{position:relative;z-index:1;margin-top:-50px}
+}

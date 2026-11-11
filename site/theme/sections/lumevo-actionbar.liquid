@@ -13,6 +13,14 @@
 var o=new IntersectionObserver(function(a){a.forEach(function(i){if(i.isIntersecting){i.target.classList.add('is-in');o.unobserve(i.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
 e.forEach(function(n){o.observe(n)});setTimeout(function(){e.forEach(function(n){n.classList.add('is-in')})},2500);})();
 </script>
+<script>
+(function(){var b=document.querySelector('.lv-bar');if(!b)return;
+var t=b.querySelector('a[href^="tel:"]'),u=document.querySelector('#navbar-mobile .col-3:last-child .nav');
+if(t&&u&&!u.querySelector('.lv-hcall')){var a=document.createElement('a');a.className='lv-hcall';a.href=t.getAttribute('href');a.setAttribute('aria-label',t.getAttribute('aria-label')||'Appeler');a.innerHTML=t.querySelector('svg').outerHTML;u.appendChild(a)}
+var h=document.querySelector('.lv-hero .lv-actions,.lv-phero .lv-actions');
+if(h&&'IntersectionObserver' in window){new IntersectionObserver(function(x){b.classList.toggle('is-off',x[0].isIntersecting)},{threshold:.6}).observe(h)}
+})();
+</script>
 {% schema %}
 {"name":"Lumevo – barre d'action","settings":[
 {"type":"text","id":"tel_label","label":"Bouton appel (téléphone)","default":"Appeler"},
