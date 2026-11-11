@@ -283,7 +283,7 @@ a.lv-city:hover{background:var(--lv-fill)!important;color:#fff!important}
 .lv-hero__grid{gap:24px;padding-top:26px;padding-bottom:30px}
 .lv-hero__media{margin:0;aspect-ratio:16/10;border-radius:18px;border:1px solid rgba(140,195,225,.3);box-shadow:0 18px 40px -22px rgba(0,0,0,.7)}
 .lv-hero__media img{object-position:30% 52%}
-.lv-hero .lv-eyebrow,.lv-phero .lv-eyebrow{font-size:.75rem!important;letter-spacing:.06em;white-space:nowrap}
+.lv-hero .lv-eyebrow,.lv-phero .lv-eyebrow{font-size:.75rem!important;letter-spacing:.06em}
 .lv-hero .lv-eyebrow::before,.lv-phero .lv-eyebrow::before{display:none}
 .lv-hero .lv-lead{font-size:1rem;line-height:1.5}
 .lv-hero .lv-actions{gap:10px;margin-top:20px}
