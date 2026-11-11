@@ -314,5 +314,6 @@ a.lv-city:hover{background:var(--lv-fill)!important;color:#fff!important}
 #main form[action*="/contact"] .form-control:focus{border-color:var(--lv-fill);box-shadow:0 0 0 3px rgba(38,116,162,.2)}
 #main form[action*="/contact"] button[type=submit],#main form[action*="/contact"] input[type=submit]{min-height:52px;border-radius:10px;font-weight:700;font-size:1.05rem}
 
-/* Avis Google (application tierce) : zones tactiles des points du curseur (24 px mini, point visible inchangé) */
-[aria-label^="Go to slide"]{box-sizing:content-box!important;padding:9px!important;background-clip:content-box!important}
+/* Avis Google (application tierce) : points du curseur à 24 px mini (point visible inchangé) et lien « En savoir plus » lisible */
+[aria-label^="Go to slide"]{box-sizing:content-box!important;padding:10px!important;background-clip:content-box!important}
+.grp-read-more{opacity:1!important;color:#595959!important}
