@@ -276,7 +276,7 @@ a.lv-city:hover{background:var(--lv-fill)!important;color:#fff!important}
 .lv-hcall{display:inline-grid;place-items:center;width:44px;height:44px;margin-right:-4px;border-radius:12px;background:var(--lv-fill);color:#fff!important}
 .lv-hcall svg{width:20px;height:20px}
 }
-@media (min-width:992px){.lv-hcall{display:none}}
+@media (min-width:992px){.lv-hcall,.lv-hli{display:none}}
 .lv-nw{white-space:nowrap}
 @media (max-width:599.98px){
 /* Ordre retenu après analyse : titre, phrase, boutons, garanties, puis la photo dans un cadre arrondi (jamais de texte sur la photo, jamais de photo bord à bord). */
@@ -313,3 +313,6 @@ a.lv-city:hover{background:var(--lv-fill)!important;color:#fff!important}
 #main form[action*="/contact"] textarea{border-radius:10px;font-size:16px;border-color:var(--lv-line)}
 #main form[action*="/contact"] .form-control:focus{border-color:var(--lv-fill);box-shadow:0 0 0 3px rgba(38,116,162,.2)}
 #main form[action*="/contact"] button[type=submit],#main form[action*="/contact"] input[type=submit]{min-height:52px;border-radius:10px;font-weight:700;font-size:1.05rem}
+
+/* Avis Google (application tierce) : zones tactiles des points du curseur (24 px mini, point visible inchangé) */
+[aria-label^="Go to slide"]{box-sizing:content-box!important;padding:9px!important;background-clip:content-box!important}
