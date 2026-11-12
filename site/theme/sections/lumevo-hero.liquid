@@ -19,7 +19,7 @@
       {% if section.settings.video != blank %}
         {{ section.settings.video | video_tag: autoplay: true, loop: true, muted: true, playsinline: true, controls: false, image_size: '1100x' }}
       {% elsif section.settings.image != blank %}
-        {{ section.settings.image | image_url: width: 1400 | image_tag: widths: '420,640,860,1100,1400', sizes: '(min-width: 992px) 44vw, 100vw', loading: 'eager', fetchpriority: 'high', alt: section.settings.image.alt }}
+        {{ section.settings.image | image_url: width: 1400 | image_tag: widths: '420,640,860,1100,1400', sizes: '(min-width: 992px) 44vw, calc(100vw - 40px)', loading: 'eager', fetchpriority: 'high', alt: section.settings.image.alt }}
       {% endif %}
       {% if section.settings.caption != blank %}<span class="lv-hero__cap">{{ section.settings.caption }}</span>{% endif %}
     </div>

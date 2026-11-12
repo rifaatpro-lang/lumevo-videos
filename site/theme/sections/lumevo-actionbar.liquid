@@ -30,3 +30,8 @@ if(h&&'IntersectionObserver' in window){b.style.transition='none';b.classList.ad
 {"type":"text","id":"devis_label","label":"Bouton devis","default":"Devis gratuit"},
 {"type":"url","id":"devis_url","label":"Lien devis"}]}
 {% endschema %}
+<script>
+(function(){var S='img.grp-entangle-item-head-image--image';function f(i){var s=i.getAttribute('src')||'';if(s.indexOf('googleusercontent.com/')>-1&&!/=s\d+/.test(s)){i.setAttribute('src',s+'=s80-c')}}
+function all(r){(r.querySelectorAll?r.querySelectorAll(S):[]).forEach(f)}
+all(document);if(window.MutationObserver){new MutationObserver(function(m){m.forEach(function(x){x.addedNodes.forEach(function(n){if(n.nodeType!==1)return;if(n.matches&&n.matches(S))f(n);else all(n)})})}).observe(document.documentElement,{childList:true,subtree:true})}})();
+</script>
