@@ -1,0 +1,403 @@
+1
+00:00:00,000 --> 00:00:02,120
+Vous vendez ou vous louez un logement,
+
+2
+00:00:02,120 --> 00:00:04,453
+et on vous demande un diagnostic électrique.
+
+3
+00:00:04,453 --> 00:00:05,920
+Quand est-il obligatoire ?
+
+4
+00:00:05,920 --> 00:00:07,947
+Combien de temps reste-t-il valable ?
+
+5
+00:00:07,947 --> 00:00:09,547
+Que contrôle-t-on vraiment ?
+
+6
+00:00:09,547 --> 00:00:11,920
+Nous reprenons tout, source par source.
+
+7
+00:00:11,920 --> 00:00:12,920
+Voici le plan.
+
+8
+00:00:12,920 --> 00:00:16,080
+D'abord, dans quels cas le diagnostic est obligatoire.
+
+9
+00:00:16,080 --> 00:00:18,200
+Ensuite, sa durée de validité.
+
+10
+00:00:18,200 --> 00:00:20,587
+Puis ce que le diagnostiqueur contrôle.
+
+11
+00:00:20,587 --> 00:00:22,960
+Et pour finir, les conséquences.
+
+12
+00:00:22,960 --> 00:00:25,013
+Premier point : dans quels cas ?
+
+13
+00:00:25,013 --> 00:00:27,840
+Le diagnostic de l'installation intérieure d'électricité
+
+14
+00:00:27,840 --> 00:00:29,680
+doit être fourni par le vendeur,
+
+15
+00:00:29,680 --> 00:00:33,120
+ou par le bailleur, lorsque l'installation a plus de quinze ans.
+
+16
+00:00:33,120 --> 00:00:35,960
+Il concerne un appartement ou une maison individuelle,
+
+17
+00:00:35,960 --> 00:00:37,200
+avec ses dépendances.
+
+18
+00:00:37,200 --> 00:00:39,680
+Il est remis à la promesse ou à l'acte de vente,
+
+19
+00:00:39,680 --> 00:00:42,560
+ou au futur locataire à la signature du bail.
+
+20
+00:00:42,560 --> 00:00:47,200
+En copropriété, l'obligation pèse donc sur le vendeur ou le bailleur du logement,
+
+21
+00:00:47,200 --> 00:00:48,640
+pas sur le syndic.
+
+22
+00:00:48,640 --> 00:00:51,280
+Deuxième point : la durée de validité.
+
+23
+00:00:51,280 --> 00:00:54,560
+Pour une vente, le diagnostic doit avoir moins de trois ans à
+
+24
+00:00:54,560 --> 00:00:57,440
+la date de la promesse de vente ou de l'acte de vente.
+
+25
+00:00:57,440 --> 00:01:02,080
+Pour une location, il doit avoir moins de six ans à la date de signature du bail.
+
+26
+00:01:02,080 --> 00:01:03,440
+Trois ans pour vendre.
+
+27
+00:01:03,440 --> 00:01:04,800
+Six ans pour louer.
+
+28
+00:01:04,800 --> 00:01:06,000
+Trois cas pratiques.
+
+29
+00:01:06,000 --> 00:01:09,080
+Premier cas : un diagnostic réalisé il y a quatre ans,
+
+30
+00:01:09,080 --> 00:01:10,280
+et une vente prévue.
+
+31
+00:01:10,280 --> 00:01:13,080
+Il ne peut plus servir, car il a plus de trois ans.
+
+32
+00:01:13,080 --> 00:01:16,120
+Deuxième cas : le même diagnostic, vieux de quatre ans,
+
+33
+00:01:16,120 --> 00:01:17,640
+et un nouveau bail à signer.
+
+34
+00:01:17,640 --> 00:01:20,400
+Il peut encore servir, car il a moins de six ans.
+
+35
+00:01:20,400 --> 00:01:23,160
+Troisième cas : une installation qui a dix ans.
+
+36
+00:01:23,160 --> 00:01:25,520
+La règle des quinze ans ne s'applique pas encore.
+
+37
+00:01:25,520 --> 00:01:28,360
+Vérifiez toujours la date de l'installation.
+
+38
+00:01:28,360 --> 00:01:31,520
+Troisième point : ce que contrôle le diagnostiqueur.
+
+39
+00:01:31,520 --> 00:01:34,880
+Les pages officielles listent des points de sécurité précis.
+
+40
+00:01:34,880 --> 00:01:38,680
+Premier point de contrôle : l'appareil général de commande et de protection,
+
+41
+00:01:38,680 --> 00:01:40,160
+et son accessibilité.
+
+42
+00:01:40,160 --> 00:01:42,920
+Il permet de couper toute l'installation d'un seul geste,
+
+43
+00:01:42,920 --> 00:01:44,760
+et doit rester facile d'accès.
+
+44
+00:01:44,760 --> 00:01:48,120
+Deuxième point : au moins un dispositif différentiel,
+
+45
+00:01:48,120 --> 00:01:50,120
+adapté aux conditions de mise à la terre.
+
+46
+00:01:50,120 --> 00:01:53,720
+Il coupe le courant en cas de fuite : c'est la protection des personnes.
+
+47
+00:01:53,720 --> 00:01:55,880
+Troisième point : sur chaque circuit,
+
+48
+00:01:55,880 --> 00:01:58,920
+un dispositif de protection contre les surintensités,
+
+49
+00:01:58,920 --> 00:02:00,800
+adapté à la section des conducteurs.
+
+50
+00:02:00,800 --> 00:02:02,960
+Un câble trop fin protégé par un calibre
+
+51
+00:02:02,960 --> 00:02:05,920
+trop élevé peut chauffer sans que rien ne coupe.
+
+52
+00:02:05,920 --> 00:02:09,600
+Quatrième point : une liaison équipotentielle et une installation
+
+53
+00:02:09,600 --> 00:02:12,760
+adaptées aux locaux qui contiennent une baignoire ou une douche.
+
+54
+00:02:12,760 --> 00:02:16,560
+L'eau augmente le risque : ces pièces demandent une attention particulière.
+
+55
+00:02:16,560 --> 00:02:20,800
+Le diagnostiqueur repère aussi les matériels électriques inadaptés à l'usage,
+
+56
+00:02:20,800 --> 00:02:23,240
+ou présentant des risques de contact direct,
+
+57
+00:02:23,240 --> 00:02:25,920
+et les conducteurs non protégés mécaniquement.
+
+58
+00:02:25,920 --> 00:02:28,040
+Attention à une confusion fréquente.
+
+59
+00:02:28,040 --> 00:02:32,480
+D'après les sources consultées, ce diagnostic porte sur des points de sécurité précis,
+
+60
+00:02:32,480 --> 00:02:34,560
+selon une méthode fixée par arrêté.
+
+61
+00:02:34,560 --> 00:02:38,040
+Il ne porte pas sur la totalité de la norme N F C quinze cent.
+
+62
+00:02:38,040 --> 00:02:41,360
+Ce n'est donc pas un certificat de conformité à cette norme.
+
+63
+00:02:41,360 --> 00:02:42,453
+Qui le réalise ?
+
+64
+00:02:42,453 --> 00:02:47,000
+Un diagnostiqueur certifié, qui a souscrit une assurance et reste indépendant.
+
+65
+00:02:47,000 --> 00:02:49,760
+Faire appel à un diagnostiqueur sans certification est
+
+66
+00:02:49,760 --> 00:02:52,120
+sanctionné d'une amende de mille cinq cents euros,
+
+67
+00:02:52,120 --> 00:02:54,560
+et de trois mille euros en cas de récidive.
+
+68
+00:02:54,560 --> 00:02:57,040
+Quatrième point : les conséquences.
+
+69
+00:02:57,040 --> 00:03:01,280
+Si le diagnostic n'est pas transmis, ou si l'annonce contient de fausses informations,
+
+70
+00:03:01,280 --> 00:03:04,680
+la responsabilité du vendeur ou du bailleur peut être engagée.
+
+71
+00:03:04,680 --> 00:03:09,000
+En cas de vente, le vendeur ne peut pas être exonéré de la garantie des vices cachés.
+
+72
+00:03:09,000 --> 00:03:11,520
+L'acquéreur peut demander une diminution du prix,
+
+73
+00:03:11,520 --> 00:03:13,400
+voire l'annulation de la vente.
+
+74
+00:03:13,400 --> 00:03:15,720
+Et si le diagnostic relève des anomalies ?
+
+75
+00:03:15,720 --> 00:03:18,560
+Le diagnostic constate, il ne fait pas les travaux.
+
+76
+00:03:18,560 --> 00:03:21,493
+Mais une anomalie signalée est un risque pour les occupants :
+
+77
+00:03:21,493 --> 00:03:24,853
+un différentiel absent, une protection mal adaptée au câble.
+
+78
+00:03:24,853 --> 00:03:27,360
+C'est le moment de faire intervenir un électricien.
+
+79
+00:03:27,360 --> 00:03:30,360
+Chez Lumevo, nous intervenons sur ces mises en sécurité,
+
+80
+00:03:30,360 --> 00:03:32,480
+en Val-d'Oise et en Île-de-France.
+
+81
+00:03:32,480 --> 00:03:34,800
+Un mot pour les syndics et les gestionnaires.
+
+82
+00:03:34,800 --> 00:03:37,600
+Les copropriétaires vous interrogent souvent sur ce sujet.
+
+83
+00:03:37,600 --> 00:03:41,080
+Les sources consultées parlent du logement et de ses dépendances,
+
+84
+00:03:41,080 --> 00:03:42,360
+pas des parties communes.
+
+85
+00:03:42,360 --> 00:03:44,480
+Pour les parties communes, voyez notre vidéo
+
+86
+00:03:44,480 --> 00:03:47,960
+sur qui est responsable de quoi en copropriété.
+
+87
+00:03:47,960 --> 00:03:50,680
+Nos sources : service-public point fr,
+
+88
+00:03:50,680 --> 00:03:53,200
+vérifié le dix-sept septembre deux mille vingt-six,
+
+89
+00:03:53,200 --> 00:03:55,040
+et justice point fr.
+
+90
+00:03:55,040 --> 00:03:57,680
+Informations générales : pour votre situation,
+
+91
+00:03:57,680 --> 00:04:00,640
+rapprochez-vous d'un diagnostiqueur ou d'un électricien.
+
+92
+00:04:00,640 --> 00:04:01,680
+Pour résumer.
+
+93
+00:04:01,680 --> 00:04:05,240
+Un : le diagnostic est à fournir en vente comme en location,
+
+94
+00:04:05,240 --> 00:04:07,440
+quand l'installation a plus de quinze ans.
+
+95
+00:04:07,440 --> 00:04:10,240
+Deux : il reste valable trois ans pour vendre,
+
+96
+00:04:10,240 --> 00:04:11,520
+six ans pour louer.
+
+97
+00:04:11,520 --> 00:04:14,480
+Trois : il contrôle des points de sécurité précis,
+
+98
+00:04:14,480 --> 00:04:17,000
+réalisé par un diagnostiqueur certifié.
+
+99
+00:04:17,000 --> 00:04:22,240
+Quatre : l'absence de diagnostic engage la responsabilité du vendeur ou du bailleur.
+
+100
+00:04:22,240 --> 00:04:25,840
+Abonnez-vous, et dites-nous en commentaire quel sujet traiter ensuite.
+
+101
+00:04:25,840 --> 00:04:27,233
+Lumevo Électricien.
